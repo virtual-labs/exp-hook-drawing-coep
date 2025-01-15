@@ -2,38 +2,130 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the primary purpose of a hook-up diagram?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To show the electrical connections of instruments",
+        "b": "To illustrate the process flow of a plant",
+        "c": "To provide detailed information about instrument installation and connection",
+        "d": "To specify the material of construction for instruments"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following symbols is used to represent a temperature transmitter in a hook-up diagram?",
+      "answers": {
+        "a": "TT",
+        "b": "PT",
+        "c": "FT",
+        "d": "IT"
       },
+     
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is the typical notation used to identify a field instrument in a hook-up diagram?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "TAG number",
+        "b": "Instrument name",
+        "c": "Location identifier",
+        "d": "Process variable"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+	{
+      "question": "A hook-up diagram for a pressure gauge would typically include which of the following?",
+      "answers": {
+        "a": "Electrical connections",
+        "b": "Piping connections",
+        "c": "Mounting details",
+        "d": "Calibration information"
       },
-      "correctAnswer": "c",
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "Which of the following is NOT typically included in a hook-up diagram?",
+      "answers": {
+        "a": "Instrument location",
+        "b": "Cable sizing",
+        "c": "Process piping layout",
+        "d": "Instrument calibration data"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+	
+    {
+      "question": "What is the purpose of a junction box in a hook-up diagram?",
+      "answers": {
+         "a": "To connect multiple instruments to a single power source",
+        "b": "To provide a convenient location for instrument maintenance",
+        "c": "To protect instruments from environmental factors",
+        "d": "To connect instruments to a control system"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "A hook-up diagram for a flow meter would typically include which of the following?",
+      "answers": {
+        "a": "Pipe size and material",
+        "b": "Flow direction indicator",
+        "c": "Instrument power supply details",
+        "d": "All mentioned"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is a common abbreviation used in hook-up diagrams?",
+      "answers": {
+        "a": "PS - Power Supply",
+        "b": "PI - Process Indicator",
+        "c": "TT - Temperature Transmitter",
+        "d": "All mentioned"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+	{
+      "question": "What is the primary advantage of using a standardized symbol set in hook-up diagrams?",
+      "answers": {
+        "a": "Easier to create diagrams",
+        "b": "Improved diagram readability",
+        "c": "Reduced errors in instrument installation",
+        "d": "All mentioned"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "Which of the following is a best practice when creating a hook-up diagram?",
+      "answers": {
+        "a": "Use different line styles to distinguish between different types of connections",
+        "b": "Include detailed instrument specifications",
+        "c": "Use a consistent notation and symbol set throughout the diagram",
+        "d": "All mentioned"
+      },
+     
+      "correctAnswer": "d",
       "difficulty": "beginner"
     }
+  
+  
+  
   ]
 }
