@@ -3,7 +3,7 @@
  var mimicCount=0;
  function Diagram(){
 	 
- 
+ $("#Header").html("<center><span >CONNECTION</span></center>");
  
  const virtualWidth = 700;
 const virtualHeight = 430;
@@ -597,11 +597,19 @@ var dragCnt = 0;
             Swal.fire({
     title: 'Appropriate Connections',
     html: `<div>
+                <p ><center><span style="font-size: 16px; font-weight: bold; color: red;">Note:For mirror Image, right click on this and then click on mirror Image.</span></center></p>
                 <img src='images/hookUp1.png' class='img-fluid' 
                      style='border-style: double; border-color: black; display: block; margin: 10px auto; width: 100%; max-width: 1200px;'>
            </div>`,
     width: '40%', // Increases the width of the modal
-    confirmButtonText: 'Try Again'
+    confirmButtonText: 'Try Again',
+     customClass: {
+                icon: 'custom-icon',
+                popup: 'custom-popup',
+                title: 'custom-title',
+                confirmButton: 'custom-confirm-button',
+                cancelButton: 'custom-cancel-button',
+            }
 });
         }
     } else if (mirroringIssue) {
@@ -622,11 +630,19 @@ var dragCnt = 0;
             Swal.fire({
    title: 'Appropriate Connections',
     html: `<div>
+               <p><center><span style="font-size: 16px; font-weight: bold; color: red;">Note:For mirror Image, right click on this and then click on mirror Image.</span></center></p>
                 <img src='images/hookUp1.png' class='img-fluid' 
                      style='border-style: double; border-color: black; display: block; margin: 10px auto; width: 100%; max-width: 1200px;'>
            </div>`,
     width: '40%', // Increases the width of the modal
-    confirmButtonText: 'Try Again'
+    confirmButtonText: 'Try Again',
+     customClass: {
+                icon: 'custom-icon',
+                popup: 'custom-popup',
+                title: 'custom-title',
+                confirmButton: 'custom-confirm-button',
+                cancelButton: 'custom-cancel-button',
+            }
 });
         }
     } else {
@@ -658,37 +674,92 @@ var dragCnt = 0;
 	$("#diagram").html('');
 	var htm = "<img src='images/hookUp1.png' alt='Sample Image' style='width=70%; height:56%; margin-left:20%;'>"
 	$("#diagram").html(htm);
-	
-	$("#table").html('');
 	var htm1 = `<table>
     <tbody>
         <tr>
-            <td><input type="text"></td>
-            <td><input type="text"></td>
-            <td><input type="text"></td>
-            <td><input type="text"></td>
-            <td><input type="text"></td>
-            <td><input type="text"></td>
+            <td>1</td>
+            <td><label class="lblApproval"></label></td>
+            <td><label class="lblApproval"></label></td>
+             <td><label class="lblApproval"></label></td>
+              <td><label class="lblApproval"></label></td>
+               <td><label class="lblApproval"></label></td>
         </tr>
         <tr>
-            <td><input type="text"></td>
-            <td><input type="text"></td>
-            <td><input type="text"></td>
-            <td><input type="text"></td>
-            <td><input type="text"></td>
-            <td><input type="text"></td>
+            <td>0</td>
+            <td><input type="text" class="txtApproval"></td>
+            <td><input type="text" class="txtApproval"></td>
+            <td><input type="text" class="txtApproval"></td>
+            <td><input type="text" class="txtApproval"></td>
+            <td><input type="text" class="txtApproval"></td>
         </tr>
         <tr>
             <td><b>Revision</b></td>
             <td><b>Date</b></td>
-            <td><input type="date"></td>
+            <td><input type="date" class="txtApproval"></td>
             <td><b>Description</b></td>
             <td><b>Checked By</b></td>
             <td><b>Approved By</b></td>
         </tr>
     </tbody>
 </table>
+
+<button id="validateTable" class="btn btn-primary" style="display: block; margin: 20px auto;" hidden>Submit</button>
+<button id="resultBtn1" class="btn btn-primary" style="display: block; margin: 20px auto; width:30%;" hidden>Result</button>
 `
+
+ $(document).ready(function () {
+        $("#validateTable").click(function () {
+            let isValid = true;
+            let inputs = $("table input");
+
+            inputs.each(function () {
+                if ($(this).val().trim() === "") {
+                    $(this).addClass("error"); // Add error style
+                    isValid = false;
+                } else {
+                    $(this).removeClass("error"); // Remove error style if filled
+                }
+            });
+
+            if (!isValid) {
+                Swal.fire({
+                icon: 'error',
+                title: 'Put appropriate details in approval sheet then click on submit!',
+                confirmButtonText: 'Try Again',
+                customClass: {
+                    icon: 'custom-icon',
+                    popup: 'custom-popup',
+                    title: 'custom-title',
+                    confirmButton: 'custom-confirm-button',
+                    cancelButton: 'custom-cancel-button',
+                }
+            });
+            $("#resultBtn1").prop("hidden",true); 
+            } else {
+                 Swal.fire({
+            icon: 'success',
+            title: 'Form submitted successfully!',
+            confirmButtonText: 'OK',
+            customClass: {
+                icon: 'custom-icon',
+                popup: 'custom-popup',
+                title: 'custom-title',
+                confirmButton: 'custom-confirm-button',
+                cancelButton: 'custom-cancel-button',
+            }
+        });
+        $("#resultBtn1").prop("hidden",false); 
+//         $("#getValues").prop("hidden",true); 
+            }
+        });
+        
+        $("#resultBtn1").on("click",function(){
+			$("#resultBtn").click();	
+		}); 
+        
+    });
+    
+    
 	$("#diagram").append(htm1);
 }
 

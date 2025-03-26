@@ -1,20 +1,16 @@
 
 var hookupCount=0;
 function HookUp(){
-	
+	$("#Header").html("<center><span >DIAGRAM</span></center>");
+	$("#startBtn,#counter").prop("hidden",false);
 	var htm =`
-	
-	<div class="container-fluid vh-100 d-flex justify-content-center align-items-center">
-    <button id="startBtn" class="btn btn-primary m-2">VALIDATE</button>
-    <button id="getValues" class="btn btn-primary m-2" hidden>VERIFY</button>
- </div>
-  
+ 
 <div class="container-fluid" id="hookUp">
     <div class="row">
         <!-- Left Sidebar (2 columns) -->
         <div class="col-4" style="border:2px solid black;">
 			<div class="heading" style="background-color:#425c64; border-radius: 25px; margin-top: 10px;">
-			   <p class="heading-text text-center" style="color: white; font-size: 22px; font-weight: 800;">INSTRUMENT SYMBOLS</p>
+			   <p class="heading-text text-center" style="color: white; font-size: 22px; font-weight: 800; padding: 0px;">INSTRUMENT SYMBOLS</p>
 		    </div>
               <div class="container-fluid mt-3">
                 <div class="row">
@@ -38,7 +34,7 @@ function HookUp(){
             </div>
             
             <div class="heading" style="background-color:#425c64; border-radius: 25px; margin-top: 10px;">
-			   <p class="heading-text text-center" style="color: white; font-size: 22px; font-weight: 800;">SIGNALS</p>
+			   <p class="heading-text text-center" style="color: white; font-size: 22px; font-weight: 800; padding:0px;">SIGNALS</p>
 		    </div>
             
             
@@ -52,7 +48,7 @@ function HookUp(){
                     
                     <div class="col-6" >
                         <div class="component" draggable="true" data-type="solidVLine" >
-                            <img src="images/verticalL.png" alt="solidVLine" draggable="false" style="height:45px; width:20px; margin:10px;">
+                            <img src="images/verticalL.png" alt="solidVLine" draggable="false" style="height:45px; width:20px; margin:10px; ">
                         </div>
                     </div>
                     
@@ -60,7 +56,7 @@ function HookUp(){
             </div>
             
             <div class="heading" style="background-color:#425c64; border-radius: 25px; margin-top: 20px;" id="tableViewLabel" hidden>
-			   <p class="heading-text text-center" style="color: white; font-size: 22px; font-weight: 800;">BILL OF MATERIAL</p>
+			   <p class="heading-text text-center" style="color: white; font-size: 22px; font-weight: 800; padding: 0px;">BILL OF MATERIAL</p>
 		    </div>
 		    
 		     <div class="container-fluid mt-3" >
@@ -335,7 +331,9 @@ function HookUp(){
 						    </table>
                         
                      </div> 
-                     <button id="resultBtn" class="btn btn-primary mt-4" style="width:100%" hidden>Result</button>
+                     <button id="getValues" class="btn btn-primary mt-4 btn1 button1" style="width:100%;" hidden>VERIFY BOM</button>
+                     <button id="resultBtn" class="btn btn-primary" style="display: none; width:100%;">Result</button>
+                    
 					
 			     </div>
 			  </div>
@@ -371,6 +369,7 @@ function HookUp(){
 	result() ;
  })
     $("#getValues").click(function () {
+		
 		hookupCount++;
         let tableData = [];
         let selectedDescriptions = new Set();
@@ -391,6 +390,7 @@ function HookUp(){
 
             if (selectedDescriptions.has(cleanDescription)) {
                 validationErrors.push(`Duplicate description found: "${description}" is selected more than once.`);
+                 tabCnt++;
             } else {
                 selectedDescriptions.add(cleanDescription);
             }
@@ -398,9 +398,9 @@ function HookUp(){
             tableData.push({ srNo: parseInt(srNo, 10), description, qty }); // Ensure srNo is a number
         });
 
-        if (allRowsSelected) {
-            tabCnt++;
-        }
+//        if (allRowsSelected) {
+//            tabCnt++;
+//        }
 
         let missingDescriptions = validData
             .map(item => item.description.toLowerCase().trim())
@@ -408,6 +408,7 @@ function HookUp(){
 
         if (missingDescriptions.length > 0) {
             validationErrors.push(`Missing descriptions: ${missingDescriptions.join(", ")}. Please select all required descriptions.`);
+        tabCnt++;
         }
 
         validData.forEach(item => {
@@ -429,8 +430,17 @@ function HookUp(){
                 Swal.fire({
                     icon: 'error',
                     title: 'Incorrect quantity. Please check your selections.',
+                    width: '30%',
                     confirmButtonText: 'Try Again',
+                    customClass: {
+                icon: 'custom-icon',
+                popup: 'custom-popup',
+                title: 'custom-title',
+                confirmButton: 'custom-confirm-button',
+                cancelButton: 'custom-cancel-button',
+               }
                 });
+
             } else {
                 Swal.fire({
                     title: 'Bill Of Material',
@@ -439,7 +449,15 @@ function HookUp(){
                                      style='border-style: double; border-color: black; display: block; margin: 10px auto; width: 100%; max-width: 1200px;'>
                            </div>`,
                     width: '40%',
-                    confirmButtonText: 'Try Again'
+                    confirmButtonText: 'Try Again',
+                    customClass: {
+                icon: 'custom-icon',
+                popup: 'custom-popup',
+                title: 'custom-title',
+                confirmButton: 'custom-confirm-button',
+                cancelButton: 'custom-cancel-button',
+            }
+                    
                 });
             }
         } else {
@@ -450,8 +468,16 @@ function HookUp(){
 
             Swal.fire({
                 icon: 'success',
-                title: 'All rows are valid!',
-                confirmButtonText: 'OK',
+                title: 'Bill of material is correct and validated! <br> put appropriate details in approval sheet for revision number 0 and click on submit.',
+                confirmButtonText: 'OK & PROCEED',
+                customClass: {
+                icon: 'custom-icon',
+                popup: 'custom-popup',
+                title: 'custom-title',
+                confirmButton: 'custom-confirm-button',
+                cancelButton: 'custom-cancel-button',
+            }
+           
             });
 			  resultJson.hookupCount=hookupCount;
         console.log(resultJson);
@@ -467,7 +493,8 @@ function HookUp(){
                 `);
             });
           $("#getValues").prop("disabled",true);
-          $("#resultBtn").prop("hidden",false);  
+          $("#resultBtn").prop("hidden",true);  
+           $("#validateTable").prop("hidden",false); 
            
         }
     });

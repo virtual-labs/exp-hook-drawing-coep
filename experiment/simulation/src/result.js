@@ -2,12 +2,12 @@ function result(){
 //	timerMasterJson.mimic=$("#counter").text();
 //	console.log(timerMasterJson);
 //	
-	$("#simDemo,#procedure,#counter,#tagDetail1").prop("hidden",true);
+	$("#startBtn,#getValues,#counter").prop("hidden",true);
 	$("#report").prop("hidden",false);
 	$("#Header").html("<center><span >HOOK UP DIAGRAM</span></center>");
 	
 	htm=''
-	+'<div class="container-fluid">'
+	+'<div class="container-fluid" style="margin-top:50px;">'
 	  
 	+' <!-- Title -->'
 

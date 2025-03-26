@@ -28,8 +28,6 @@
     margin: 15px 0;
 }
 
-
-
 #testSubmit:hover{
 	background-color: #05aaa5
 }
@@ -141,7 +139,55 @@ option, select{
 	height: 30px;
 }  
   
-#startBtn{
+#startBtn, #getValues, #validateTable, #resultBtn{
 	   border-color: teal;
     background-color: teal;
   }
+  
+  .timerStyle {
+    background-color: #42494f;
+    color: #e8ac6e;
+    font-weight: 700;
+    font-family: 'digital-clock-font';
+    letter-spacing: 1px;
+}
+.btn1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 7px;
+    float: right;
+    margin-bottom: 10px;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+}
+
+.titlePart {
+    font-size: larger;
+    font-weight: 700;
+    background-color: #244747;
+    margin: 5px;
+    padding: 15px;
+    color: #fff;
+    border-style: solid;
+    border-color: #7baea7;
+}
+
+.card {
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .instruction-box {
+            background: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-top: 20px;
+        }
+p {
+    margin: 0 0 0px;
+}
