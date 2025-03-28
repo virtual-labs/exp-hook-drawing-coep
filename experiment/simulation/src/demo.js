@@ -6,7 +6,7 @@
  $("#Header").html("<center><span >CONNECTION</span></center>");
  
  const virtualWidth = 700;
-const virtualHeight = 430;
+const virtualHeight = 396;
 
 const paper = Raphael("diagram", "100%", "100%");
 paper.setViewBox(0, 0, virtualWidth, virtualHeight, true);
