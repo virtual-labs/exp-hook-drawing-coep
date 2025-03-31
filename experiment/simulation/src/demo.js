@@ -682,12 +682,12 @@ var dragCnt = 0;
             <td><label class="lblApproval"></label></td>
              <td><label class="lblApproval"></label></td>
               <td><label class="lblApproval"></label></td>
-               <td><label class="lblApproval"></label></td>
+               
         </tr>
         <tr>
             <td>0</td>
-            <td><input type="text" class="txtApproval"></td>
-            <td><input type="text" class="txtApproval"></td>
+            <td><input type="date" class="txtApproval"></td>
+            
             <td><input type="text" class="txtApproval"></td>
             <td><input type="text" class="txtApproval"></td>
             <td><input type="text" class="txtApproval"></td>
@@ -695,7 +695,7 @@ var dragCnt = 0;
         <tr>
             <td><b>Revision</b></td>
             <td><b>Date</b></td>
-            <td><input type="date" class="txtApproval"></td>
+           
             <td><b>Description</b></td>
             <td><b>Checked By</b></td>
             <td><b>Approved By</b></td>
