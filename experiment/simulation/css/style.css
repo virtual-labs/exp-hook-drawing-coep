@@ -139,8 +139,8 @@ option, select{
 	height: 30px;
 }  
   
-#startBtn, #getValues, #validateTable, #resultBtn{
-	   border-color: teal;
+#startBtn, #getValues, #validateTable, #resultBtn, #startBtn1,#startBtn2,#startBtn3{
+	border-color: teal;
     background-color: teal;
   }
   
