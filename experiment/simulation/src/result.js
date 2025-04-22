@@ -1,13 +1,15 @@
 function result(){
-//	timerMasterJson.mimic=$("#counter").text();
-//	console.log(timerMasterJson);
-//	
+	
+	$("#hookUpSelectLabel").prop("hidden",true);
+	$("#hookUpSelect").prop("hidden",true);
+	
+
 	$("#startBtn,#getValues,#counter").prop("hidden",true);
 	$("#report").prop("hidden",false);
 	$("#Header").html("<center><span >HOOK UP DIAGRAM</span></center>");
 	
 	htm=''
-	+'<div class="container-fluid" style="margin-top:50px;">'
+	+'<div class="container-fluid" style="margin-top:5px;">'
 	  
 	+' <!-- Title -->'
 
@@ -22,28 +24,45 @@ function result(){
 	+'     <tr>'
 	+'        <th>Competency </th>'
 	+'        <th>Status</th>'
-//	+'        <th>Time</th>'
+	+'        <th>Time</th>'
 	+'      </tr>'
 	+'    </thead>'
 	+'   <tbody>'
 	+'      <tr>'
-	+'       <td><b>Configuration in Connection Diagram</b></td>'
+	+'       <td><b>DPT</b></td>'
 	+'        <td id="piping">'
-	
 	+'		</td>'
-//	+'        <td id="pipingTimer">'
-//	
-//	+'       </td>'
+	+'        <td id="pipingTimer">'
+	+'       </td>'
 	+'     </tr>'
+	
 	+'      <tr>'
-	+'        <td> <b>Configuration in BOM Diagram</b></td>'
-	+'        <td id="instr">'
-
+	+'        <td> <b>Control Valve</b></td>'
+	+'        <td id="squ">'
 	+'		</td>'
-//    +'        <td id="instrTimer">'
-//	
+	+'        <td id="squTimer">'
+	+'      </td>'
+	+'     </tr>'
+	
+	+'      <tr>'
+	+'        <td> <b>I/P</b></td>'
+	+'        <td id="startPer">'
+	+'		</td>'
+	+'        <td id="startPerTimer">'
+	+'       </td>'
+	+'     </tr>'
+	
+	+'      <tr>'
+	+'        <td> <b>High Pressure Service</b></td>'
+	+'        <td id="trendsPer">'
+	+'		</td>'
+	+'        <td id="trendsPerTimer">'
+	+'       </td>'
+	+'		</tr>'
+	
+//    +'        <td id="instrTimer">'	
 //	+'       </td>'
-	+'      </tr>'
+//	+'      </tr>'
 	
           
     +'    </tbody>'
@@ -56,9 +75,9 @@ function result(){
     +'</div>'
     +'   <!-- First Row -->'
     +'  <div class="row">'
-    +'   <div class="col-md-6" >'
+    +'   <div class="col-md-3" >'
     +'     <div class="box">'
-    +'      <h5 class="section-title sectionStyle" >Configuration in Connection Diagram</h5>'
+    +'      <h5 class="section-title sectionStyle" >Configuration in Mimic Count DPT</h5>'
     +'       <div class="table-container">'
     +'        <table style="border-style: solid;">'
     +'           <tr class="trStyle">'
@@ -67,14 +86,14 @@ function result(){
     +'          </tr>'
     +'           <tr>'
     +'           <td><b> <center><strong class="correct">1</strong> </center></b></td>'
-	+'           <td><b> <center><strong class="wrong">'+resultJson.mimicCount+'</strong> </center></b></td>'
-	  +'         </table>'
+	+'           <td><b> <center><strong class="wrong">'+resultJson.mimicCountDPT+'</strong> </center></b></td>'
+	+'         </table>'
     +'      </div>'
     +'    </div>'
     +'   </div>'
-    +'  <div class="col-md-6" >'
+    +'  <div class="col-md-3" >'
     +'    <div class="box">'
-    +'     <h5 class="section-title sectionStyle" >Configuration in BOM Diagram</h5>'
+    +'     <h5 class="section-title sectionStyle" >Configuration in Hookup Count DPT</h5>'
     +'     <div class="table-container">'
 	+'       <table style="border-style: solid;">'
 	+'          <tr class="trStyle">'
@@ -82,55 +101,121 @@ function result(){
 	+'            <th>Actual</th>'
 	+'          </tr>'
 	+'          <tr>'
-	 +'						  <td><b class="correct">1</b></td>'
-	    +'                       <td><b class="wrong">'+resultJson.hookupCount+'</b></td>'
-	  	+'          </tr>'
+	+'						  <td><b class="correct">1</b></td>'
+    +'                       <td><b class="wrong">'+resultJson.hookupCountDPT+'</b></td>'
+	+'          </tr>'
 	+'        </table>'
 	+'      </div>'
 	+'     </div>'
 	+'   </div>'
-//	+'   <div class="col-md-4">'
-//	+'    <div class="box">'
-//	+'     <h5 class="section-title sectionStyle" >Sequence of Activities</h5>'
-//	+'      <div class="table-container">'
-//	+'        <table style="border-style: solid;">'
-//	+'          <tr class="trStyle">'
-//	+'            <th>Expected</th>'
-//	+'           <th>Actual</th>'
-//	+'         </tr>'
-//	+'          <tr>'
-//	 +'						  <td><b class="correct">1</b></td>'
-//	    +'                       <td><b class="wrong">'+resultJson.seqActivites+'</b></td>'
-//	  	+'         </tr>'
-//	+'        </table>'
-//	+'     </div>'
-//	+'   </div>'
-//	+' </div>'
+	
+	+'  <div class="col-md-3" >'
+    +'    <div class="box">'
+    +'     <h5 class="section-title sectionStyle" >Configuration in Mimic Count CV</h5>'
+    +'     <div class="table-container">'
+	+'       <table style="border-style: solid;">'
+	+'          <tr class="trStyle">'
+	+'            <th>Expected</th>'
+	+'            <th>Actual</th>'
+	+'          </tr>'
+	+'          <tr>'
+	+'						 <td><b class="correct">1</b></td>'
+	+'                       <td><b class="wrong">'+resultJson.mimicCountCV+'</b></td>'
+	+'          </tr>'
+	+'        </table>'
+	+'      </div>'
+	+'     </div>'
+	+'   </div>'
+	+'  <div class="col-md-3" >'
+    +'    <div class="box">'
+    +'     <h5 class="section-title sectionStyle" >Configuration in Hookup Count CV</h5>'
+    +'     <div class="table-container">'
+	+'       <table style="border-style: solid;">'
+	+'          <tr class="trStyle">'
+	+'            <th>Expected</th>'
+	+'            <th>Actual</th>'
+	+'          </tr>'
+	+'          <tr>'
+	+'						  <td><b class="correct">1</b></td>'
+	+'                       <td><b class="wrong">'+resultJson.hookupCountCV+'</b></td>'
+	+'          </tr>'
+	+'        </table>'
+	+'      </div>'
+	+'     </div>'
+	+'   </div>'
+	
+	+'  <div class="col-md-3" >'
+    +'    <div class="box">'
+    +'     <h5 class="section-title sectionStyle" >Configuration in Mimic Count I/P</h5>'
+    +'     <div class="table-container">'
+	+'       <table style="border-style: solid;">'
+	+'          <tr class="trStyle">'
+	+'            <th>Expected</th>'
+	+'            <th>Actual</th>'
+	+'          </tr>'
+	+'          <tr>'
+	+'						 <td><b class="correct">1</b></td>'
+	+'                       <td><b class="wrong">'+resultJson.mimicCountIP+'</b></td>'
+	+'          </tr>'
+	+'        </table>'
+	+'      </div>'
+	+'     </div>'
+	+'   </div>'
+	+'  <div class="col-md-3" >'
+    +'    <div class="box">'
+    +'     <h5 class="section-title sectionStyle" >Configuration in Hookup Count I/P</h5>'
+    +'     <div class="table-container">'
+	+'       <table style="border-style: solid;">'
+	+'          <tr class="trStyle">'
+	+'            <th>Expected</th>'
+	+'            <th>Actual</th>'
+	+'          </tr>'
+	+'          <tr>'
+	+'						  <td><b class="correct">1</b></td>'
+	+'                       <td><b class="wrong">'+resultJson.hookupCountIP+'</b></td>'
+	+'          </tr>'
+	+'        </table>'
+	+'      </div>'
+	+'     </div>'
+	+'   </div>'
+	
++'  <div class="col-md-3" >'
+    +'    <div class="box">'
+    +'     <h5 class="section-title sectionStyle" >Configuration in Mimic Count HPS</h5>'
+    +'     <div class="table-container">'
+	+'       <table style="border-style: solid;">'
+	+'          <tr class="trStyle">'
+	+'            <th>Expected</th>'
+	+'            <th>Actual</th>'
+	+'          </tr>'
+	+'          <tr>'
+	+'						 <td><b class="correct">1</b></td>'
+	+'                       <td><b class="wrong">'+resultJson.mimicCountService+'</b></td>'
+	+'          </tr>'
+	+'        </table>'
+	+'      </div>'
+	+'     </div>'
+	+'   </div>'
+	+'  <div class="col-md-3" >'
+    +'    <div class="box">'
+    +'     <h5 class="section-title sectionStyle" >Configuration in Hookup Count HPS</h5>'
+    +'     <div class="table-container">'
+	+'       <table style="border-style: solid;">'
+	+'          <tr class="trStyle">'
+	+'            <th>Expected</th>'
+	+'            <th>Actual</th>'
+	+'          </tr>'
+	+'          <tr>'
+	+'						 <td><b class="correct">1</b></td>'
+	+'                       <td><b class="wrong">'+resultJson.pressureService+'</b></td>'
+	+'          </tr>'
+	+'        </table>'
+	+'      </div>'
+	+'     </div>'
+	+'   </div>'
+	
 	+'</div>'
-//	+' <!-- First Row -->'
-//	+'<!-- <div class="row">'
-//	+'  <div class="col-md-3">'
-//	+'  </div>'
-//	+' <div class="col-md-6">'
-//	+'   <div class="box">'
-//	+'     <h5 class="section-title sectionStyle" >Sequence of Activities</h5>'
-//	+'     <div class="table-container">'
-//	+'       <table style="border-style: solid;">'
-//	+'         <tr class="trStyle">'
-//	+'           <th>Expected</th>'
-//	+'           <th>Actual</th>'
-//	+'         </tr>'
-//	+'         <tr>'
-//	 +'						  <td><b class="correct">1</b></td>'
-// +'                       <td><b class="wrong">'+resultJson.animationStart+'</b></td>'
-// +'         </tr>'
-//	+'       </table>'
-//	+'     </div>'
-//	+'   </div>'
-//	+' </div>'
-//	+'  <div class="col-md-3">'
-//	+'  </div>'
-//	+' </div> -->'
+
 
 	+'<!-- Graphs Section -->'
 	+'<div class="row">'
@@ -140,101 +225,30 @@ function result(){
       
     +'</div>'
 
-//    +'<!-- Animation Section -->'
-//    +'<div class="row">'
-//    +' <div class="col-md-12">'
-//    +'   <div class="box">'
-//    +'     <h5 class="section-title sectionStyle" >Connection Diagram</h5>'
-//    +'     <div class="animation-container">'
-//           
-//    +'           <div class="col-md-4">'
-//    +'				<div class="box">'
-//    +'				  <h5 class="section-title sectionStyle">Start</h5>'
-//    +'				  <div class="table-container">'
-//    +'					<table style="border-style: solid;" >'
-//    +'					  <tr class="trStyle">'
-//    +'						<th>Expected</th>'
-//    +'						<th>Actual</th>'
-//    +'					  </tr>'
-//    +'					  <tr>'
-//    +'						  <td><b class="correct">3</b></td>'
-//    +'                       <td><b class="wrong">'+resultJson.animationStart+'</b></td>'
-//    +'					  </tr>'
-//    +'					</table>'
-//    +'				  </div>'
-//    +'				</div>'
-//    +'			  </div>'
-//    +'         <div class="col-md-4">'
-//    +'		<div class="box">'
-//    +'		  <h5 class="section-title sectionStyle">View Datasheet</h5>'
-//    +'		  <div class="table-container">'
-//    +'			<table style="border-style: solid;">'
-//    +'			  <tr class="trStyle">'
-//    +'				<th>Expected</th>'
-//    +'			<th>Actual</th>'
-//    +'			  </tr>'
-//    +'			  <tr>'
-//    +'				  <td><b class="correct">3</b></td>'
-//    +'                <td><b class="wrong">'+resultJson.datasheet+'</b></td>'
-//    +'			  </tr>'
-//    +'			</table>'
-//    +'		  </div>'
-//    +'		</div>'
-//    +' </div>'
-//    +'       <div class="col-md-4">'
-//    +'		<div class="box">'
-//    +'		  <h5 class="section-title sectionStyle">Trends</h5>'
-//    +'		  <div class="table-container">'
-//    +'			<table style="border-style: solid;">'
-//    +'			  <tr class="trStyle">'
-//    +'				<th>Expected</th>'
-//    +'				<th>Actual</th>'
-//    +'			  </tr>'
-//    +'			  <tr>'
-//    +'				  <td><b class="correct">3</b></td>'
-//    +'            <td><b class="wrong">'+resultJson.trends+'</b></td>'
-//    +'			  </tr>'
-//    +'			</table>'
-//    +'		  </div>'
-//    +'		</div>'
-//    +' </div>'
-//          
-//    +'     </div>'
-//    +'   </div>'
-//    +' </div>'
-//    +'</div>'
-//    +'</div>'
     $("#main-div").html(htm);
+
+//	var instr=parseFloat((1/resultJson.hookupCountDPT)*100);	
+	var piping=parseFloat((2 / (resultJson.mimicCountDPT + resultJson.hookupCountDPT)) * 100);
+	var squ=parseFloat((2 / (resultJson.mimicCountCV + resultJson.hookupCountCV)) * 100);
+	var startPer=parseFloat((2 / (resultJson.mimicCountIP + resultJson.hookupCountIP)) * 100);
+	var trendsPer=parseFloat((2 / (resultJson.mimicCountService + resultJson.pressureService)) * 100);
 	
-	var piping=parseFloat((1/resultJson.mimicCount)*100);
-	var instr=parseFloat((1/resultJson.hookupCount)*100);
-//	var squ=parseFloat((1/resultJson.seqActivites)*100);
-//	var startPer=parseFloat((resultJson.animationStart/3)*100);
-//	var datasheetPer=parseFloat((resultJson.datasheet/3)*100);
-//	var trendsPer=parseFloat((resultJson.trends/3)*100);
-	
-//	var simuAdd=resultJson.animationStart+resultJson.datasheet+resultJson.trends;
-//	var simulation1=parseFloat((simuAdd/9)*100);
-//	console.log(" piping "+piping);
-//	console.log(" instr "+instr);
-//	console.log(" squ "+squ);
-//	console.log(" simuAdd "+simuAdd);
-	
-//	console.log(" startPer "+startPer);
-//	console.log(" datasheetPer "+datasheetPer);
-//	console.log(" trendsPer "+trendsPer);
-//	console.log(" simulation1 "+simulation1);
+	console.log(" piping "+piping);
+	console.log(" squ "+squ);
+	console.log(" startPer "+startPer);
+	console.log(" trendsPer "+trendsPer);
+
 	if(piping>=60){
 		 var str=''
 	 +'	     	<div class="alert alert-success attainedText">'
 	+'    			 <center><strong> Attained</strong> </center>'
 	+'     		 </div>'
 	 $("#piping").html(str);
-//		 var str1=''
-//	+'	     	<div class="alert alert-success attainedText">'
-//	+'    	   <center><strong> '+timerMasterJson.mimicCount+'</strong> </center>'
-//	+'     		 </div>'
-//	 $("#pipingTimer").html(str1); 
+		 var str1=''
+	+'	     	<div class="alert alert-success attainedText">'
+	+'    	   <center><strong> '+timerMasterJson.hookup+'</strong> </center>'
+	+'     		 </div>'
+	 $("#pipingTimer").html(str1); 
 		     
 	}
 	else
@@ -244,27 +258,26 @@ function result(){
 		    +'  <center><strong>Not Attained</strong> </center>'
 		     +'  </div>'
 		     $("#piping").html(str);
-//		 var str1=''
-//				+'	     	<div class="alert alert-danger attainedText">'
-//				+'    	   <center><strong> '+timerMasterJson.mimicCount+'</strong> </center>'
-//				+'     		 </div>'
-//							     $("#pipingTimer").html(str1); 
-		 
-		 
+		 var str1=''
+				+'	     	<div class="alert alert-danger attainedText">'
+				+'    	   <center><strong> '+timerMasterJson.hookup+'</strong> </center>'
+				+'     		 </div>'
+							     $("#pipingTimer").html(str1); 
+
 		}
-	if(instr>=60){
+		
+		
+	if(squ>=60){
 		 var str=''
 	 +'	     	<div class="alert alert-success attainedText">'
 	+'    			 <center><strong> Attained</strong> </center>'
 	+'     		 </div>'
-		     $("#instr").html(str);
-//		 var str1=''
-//				+'	     	<div class="alert alert-success attainedText">'
-//				+'    	   <center><strong> '+timerMasterJson.instr+'</strong> </center>'
-//				+'     		 </div>'
-//							     $("#instrTimer").html(str1); 
-		 	 
-		     
+		     $("#squ").html(str);
+		 var str1=''
+				+'	     	<div class="alert alert-success attainedText">'
+				+'    	   <center><strong> '+timerMasterJson.hookup1+'</strong> </center>'
+				+'     		 </div>'
+							     $("#squTimer").html(str1); 
 	}
 	else
 		{
@@ -272,64 +285,66 @@ function result(){
 			 +' <div class="alert alert-danger attainedText">'
 		    +'  <center><strong>Not Attained</strong> </center>'
 		     +'  </div>'
-		     $("#instr").html(str);
-//		 var str1=''
-//				+'	     	<div class="alert alert-danger attainedText">'
-//				+'    	   <center><strong> '+timerMasterJson.instr+'</strong> </center>'
-//				+'     		 </div>'
-//							     $("#instrTimer").html(str1); 
+		     $("#squ").html(str);
+		 var str1=''
+				+'	     	<div class="alert alert-danger attainedText">'
+				+'    	   <center><strong> '+timerMasterJson.hookup1+'</strong> </center>'
+				+'     		 </div>'
+							     $("#squTimer").html(str1); 
 		}
-//	if(squ>=60){
-//		 var str=''
-//	 +'	     	<div class="alert alert-success attainedText">'
-//	+'    			 <center><strong> Attained</strong> </center>'
-//	+'     		 </div>'
-//		     $("#squ").html(str);
-//		 var str1=''
-//				+'	     	<div class="alert alert-success attainedText">'
-//				+'    	   <center><strong> '+timerMasterJson.squences+'</strong> </center>'
-//				+'     		 </div>'
-//							     $("#squTimer").html(str1); 
-//		     
-//	}
-//	else
-//		{
-//		 var str=''
-//			 +' <div class="alert alert-danger attainedText">'
-//		    +'  <center><strong>Not Attained</strong> </center>'
-//		     +'  </div>'
-//		     $("#squ").html(str);
-//		 var str1=''
-//				+'	     	<div class="alert alert-danger attainedText">'
-//				+'    	   <center><strong> '+timerMasterJson.squences+'</strong> </center>'
-//				+'     		 </div>'
-//							     $("#squTimer").html(str1); 
-//		}
-//	if(startPer>=100 && datasheetPer>=100 && trendsPer>=100){
-//		 var str=''
-//	 +'	     	<div class="alert alert-success attainedText">'
-//	+'    			 <center><strong> Attained</strong> </center>'
-//	+'     		 </div>'
-//		     $("#simulation").html(str);
-//	var str1=''
-//	+'	     	<div class="alert alert-success attainedText">'
-//	+'    	   <center><strong> '+timerMasterJson.mimic+'</strong> </center>'
-//	+'     		 </div>'
-//	 $("#simulationTimer").html(str1); 
-//	}
-//	else
-//		{
-//		 var str=''
-//			 +' <div class="alert alert-danger attainedText">'
-//		    +'  <center><strong>Not Attained</strong> </center>'
-//		     +'  </div>'
-//		     $("#simulation").html(str);
-//		 var str1=''
-//				+'	     	<div class="alert alert-danger attainedText">'
-//				+'    	   <center><strong> '+timerMasterJson.mimic+'</strong> </center>'
-//				+'     		 </div>'
-//							     $("#simulationTimer").html(str1); 
-//		}
+			
+	if(startPer>=60 ){
+		 var str=''
+	 +'	     	<div class="alert alert-success attainedText">'
+	+'    			 <center><strong> Attained</strong> </center>'
+	+'     		 </div>'
+		     $("#startPer").html(str);
+	var str1=''
+	+'	     	<div class="alert alert-success attainedText">'
+	+'    	   <center><strong> '+timerMasterJson.hookup2+'</strong> </center>'
+	+'     		 </div>'
+	 $("#startPerTimer").html(str1); 
+	}
+	else
+		{
+		 var str=''
+			 +' <div class="alert alert-danger attainedText">'
+		    +'  <center><strong>Not Attained</strong> </center>'
+		     +'  </div>'
+		     $("#startPer").html(str);
+		 var str1=''
+				+'	     	<div class="alert alert-danger attainedText">'
+				+'    	   <center><strong> '+timerMasterJson.hookup2+'</strong> </center>'
+				+'     		 </div>'
+							     $("#startPerTimer").html(str1); 
+		}
+		
+		if(trendsPer>=60 ){
+		 var str=''
+	 +'	     	<div class="alert alert-success attainedText">'
+	+'    			 <center><strong> Attained</strong> </center>'
+	+'     		 </div>'
+		     $("#trendsPer").html(str);
+	var str1=''
+	+'	     	<div class="alert alert-success attainedText">'
+	+'    	   <center><strong> '+timerMasterJson.hookup3+'</strong> </center>'
+	+'     		 </div>'
+	 $("#trendsPerTimer").html(str1); 
+	}
+	else
+		{
+		 var str=''
+			 +' <div class="alert alert-danger attainedText">'
+		    +'  <center><strong>Not Attained</strong> </center>'
+		     +'  </div>'
+		     $("#trendsPer").html(str);
+		 var str1=''
+				+'	     	<div class="alert alert-danger attainedText">'
+				+'    	   <center><strong> '+timerMasterJson.hookup3+'</strong> </center>'
+				+'     		 </div>'
+							     $("#trendsPerTimer").html(str1); 
+		}
+	
 	Highcharts.chart('graphDiv', {
 		credits: { enabled: false},
 	    chart: {
@@ -384,12 +399,10 @@ function result(){
 	    series: [{
 	        name: '',
 	        data: [
-	            { name: 'CONNECTION', y: piping },
-	            { name: 'BILL OF MATERIAL', y: instr }
-//	            { name: 'SEQUENCE OF ACTIVITIES', y: squ },
-//	            { name: 'SIMULATION', y: simulation1 },
-//	            { name: 'DATASHEET', y: 100 },
-//	            { name: 'TRENDS', y: 100 }
+	            { name: 'DPT', y: piping },
+	            { name: 'Control Valve', y: squ },
+	            { name: 'I/P', y: startPer },
+	            { name: 'High Presure Service', y: trendsPer }
 	          
 	        ]
 	    }]
