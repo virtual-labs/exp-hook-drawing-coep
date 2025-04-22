@@ -258,103 +258,91 @@ function Diagram2() {
 
 
 		if (draggedType === "solidHLine") {
-			let closestPath = predefinedPaths.reduce((bestMatch, path) => {
-				let lineLength = path.lineLength || 78;
-				let leftX = path.x;
-				let rightX = path.x + lineLength;
+    let closestPath = predefinedPaths.reduce((bestMatch, path) => {
+        let lineLength = path.lineLength || 78;
+        let leftX = path.x;
+        let rightX = path.x + lineLength;
 
-				let xDist = Math.abs(dropPoint.x - (leftX + lineLength / 2));
-				let yDist = Math.abs(dropPoint.y - path.y);
-				let xInRange = dropPoint.x >= leftX && dropPoint.x <= rightX;
+        let yDist = Math.abs(dropPoint.y - path.y);
 
-				const isXOnlyCase =
-					(path.x === x + 304 && path.y === y + 214 && path.lineLength === 30) ||
-					(path.x === x + 304.5 && path.y === y + 221 && path.lineLength === 47);
+        let yThreshold;
+        if (path.x >= (x + 300)) {
+            yThreshold = 20;
+        } else if (path.y === y - 13.1) {
+            yThreshold = 60;
+        } else {
+            yThreshold = 40;
+        }
 
-				let yThreshold = isXOnlyCase ? Infinity :
-					(lineLength <= 35) ? 8 :
-						(path.x >= (x + 300)) ? 15 :
-							(path.y === y - 13.1) ? 60 : 40;
+        let xThreshold = (dropPoint.x >= leftX && dropPoint.x <= rightX);
 
-				if (xInRange && yDist <= yThreshold) {
-					// In strict X-only cases, ignore yDist completely
-					if (isXOnlyCase) {
-						if (!bestMatch || xDist < Math.abs(dropPoint.x - (bestMatch.x + bestMatch.lineLength / 2))) {
-							return path;
-						}
-					} else {
-						if (!bestMatch) return path;
+        if (xThreshold && yDist < yThreshold) {
+            if (!bestMatch || yDist < Math.abs(dropPoint.y - bestMatch.y)) {
+                return path;
+            }
+        }
+        return bestMatch;
+    }, null);
 
-						let bestYDist = Math.abs(dropPoint.y - bestMatch.y);
-						let bestXDist = Math.abs(dropPoint.x - (bestMatch.x + bestMatch.lineLength / 2));
+    if (closestPath) {
+//        console.log(`✅ Valid Drop at (${closestPath.x}, ${closestPath.y})`);
 
-						if (yDist < bestYDist) return path;
-						if (yDist === bestYDist && xDist < bestXDist) return path;
-					}
-				}
+        let lineLength = closestPath.lineLength || 78;
+        let adjustedY = (closestPath.y === y - 13.1) ? y - 13.1 : closestPath.y;
 
-				return bestMatch;
-			}, null);
+        let horizontalLine = paper.path(`M${closestPath.x} ${adjustedY} l ${lineLength} 0`).attr({
+            stroke: "#000",
+            "stroke-width": 1.5,
+            cursor: "pointer"
+        });
 
-			if (closestPath) {
-				//        console.log(`✅ Valid Drop at (${closestPath.x}, ${closestPath.y})`);
+        let centerX = closestPath.x + lineLength / 2;
+        let centerY = adjustedY;
 
-				let lineLength = closestPath.lineLength || 78;
-				let adjustedY = (closestPath.y === y - 13.1) ? y - 13.1 : closestPath.y;
+        let slantLength, gap;
+        if (lineLength <= 30) {
+            slantLength = 6;
+            gap = 2;
+        } else if (lineLength <= 50) {
+            slantLength = 8;
+            gap = 2.5;
+        } else {
+            slantLength = 12;
+            gap = 3;
+        }
 
-				let horizontalLine = paper.path(`M${closestPath.x} ${adjustedY} l ${lineLength} 0`).attr({
-					stroke: "#000",
-					"stroke-width": 1.5,
-					cursor: "pointer"
-				});
+        let halfSlant = slantLength / 2;
 
-				let centerX = closestPath.x + lineLength / 2;
-				let centerY = adjustedY;
+        let slantedLine1 = paper.path(`M${centerX - gap - halfSlant} ${centerY + halfSlant} l ${slantLength} -${slantLength}`).attr({
+            stroke: "#000",
+            "stroke-width": 1.5,
+            cursor: "pointer"
+        });
 
-				let slantLength, gap;
-				if (lineLength <= 30) {
-					slantLength = 6;
-					gap = 2;
-				} else if (lineLength <= 50) {
-					slantLength = 8;
-					gap = 2.5;
-				} else {
-					slantLength = 12;
-					gap = 3;
-				}
+        let slantedLine2 = paper.path(`M${centerX + gap - halfSlant} ${centerY + halfSlant} l ${slantLength} -${slantLength}`).attr({
+            stroke: "#000",
+            "stroke-width": 1.5,
+            cursor: "pointer"
+        });
 
-				let halfSlant = slantLength / 2;
+        let elements = [horizontalLine, slantedLine1, slantedLine2];
+        elements.forEach(el => {
+            el.click(() => {
+                elements.forEach(e => e.remove());
+                placedElements = placedElements.filter(e => !elements.includes(e));
+                wrongCnt++;
+//                console.log(`❌ Structure removed at (${closestPath.x}, ${adjustedY})`);
+            });
+        });
 
-				let slantedLine1 = paper.path(`M${centerX - gap - halfSlant} ${centerY + halfSlant} l ${slantLength} -${slantLength}`).attr({
-					stroke: "#000",
-					"stroke-width": 1.5,
-					cursor: "pointer"
-				});
+        placedElements.push(...elements);
+    } else {
+//        console.log(`❌ Invalid Drop: Must be within line range.`);
+//        console.log(`🔎 Drop Attempt at (${dropPoint.x}, ${dropPoint.y})`);
+    }
 
-				let slantedLine2 = paper.path(`M${centerX + gap - halfSlant} ${centerY + halfSlant} l ${slantLength} -${slantLength}`).attr({
-					stroke: "#000",
-					"stroke-width": 1.5,
-					cursor: "pointer"
-				});
-
-				let elements = [horizontalLine, slantedLine1, slantedLine2];
-				elements.forEach(el => {
-					el.click(() => {
-						elements.forEach(e => e.remove());
-						placedElements = placedElements.filter(e => !elements.includes(e));
-						wrongCnt++;
-						//                console.log(`❌ Structure removed at (${closestPath.x}, ${adjustedY})`);
-					});
-				});
-
-				placedElements.push(...elements);
-			} else {
-				//        console.log(`❌ Invalid Drop: Must be within line range.`);
-				//        console.log(`🔎 Drop Attempt at (${dropPoint.x}, ${dropPoint.y})`);
-			}
-
-			return false;
-		}
+    return false;
+}
 
 
 
