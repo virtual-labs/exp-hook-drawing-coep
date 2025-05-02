@@ -246,7 +246,7 @@ Copyrights &copy; COEP - Virtual Lab
 // HookUp1(); // to be removed at the end
 // Diagram1(); // to be removed at the end
 // var tabCnt = 1;
-   
+//    result();
    var hookUpPhase = 0;
    second=0;
    updateCounter();
@@ -330,19 +330,19 @@ $("#coepLogo").click(function(evt) {
 	
 	 $('#coepLogo').off('click');
 });
-$('#report').on('click', function() {
-			$('#report').prop("hidden",true);
-		    html2canvas(document.querySelector("#main-div")).then(canvas => {
-		        // Append the screenshot canvas to the body
-		        document.body.appendChild(canvas);
-		        $("canvas").css("display","none");
-		        // Optionally save the screenshot as an image
-		        var link = document.createElement('a');
-		        link.download = 'HookUp_report.png';
-		        link.href = canvas.toDataURL();
-		        link.click();
-		    });
-		});
+// $('#report').on('click', function() {
+// 			$('#report').prop("hidden",true);
+// 		    html2canvas(document.querySelector("#main-div")).then(canvas => {
+// 		        // Append the screenshot canvas to the body
+// 		        document.body.appendChild(canvas);
+// 		        $("canvas").css("display","none");
+// 		        // Optionally save the screenshot as an image
+// 		        var link = document.createElement('a');
+// 		        link.download = 'HookUp_report.png';
+// 		        link.href = canvas.toDataURL();
+// 		        link.click();
+// 		    });
+// 		});
 
 </script>
 
