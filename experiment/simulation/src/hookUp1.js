@@ -108,7 +108,7 @@ function HookUp1(){
 						    </table>
                         
                      </div> 
-                     <button id="getValues" class="btn btn-primary mt-4 btn1 button1" style="width:100%;" hidden>VERIFY BOM</button>
+                     <button id="getValues" class="btn btn-primary mt-4 btn1 button1" style="width:100%;margin-bottom: 30px;" hidden>VERIFY BOM</button>
                      <button id="resultBtn" class="btn btn-primary" style="display: none; width:100%;">Result</button>
                     
 					
