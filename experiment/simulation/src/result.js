@@ -9,8 +9,18 @@ function result(){
 	$("#Header").html("<center><span >HOOK UP DIAGRAM</span></center>");
 	
 	htm=''
+	
+	+`<div class="row" style="background-color: #2e3539; padding: 10px; display: flex; justify-content: center;">
+  <div style="display: flex; align-items: center; gap: 10px; white-space: nowrap;">
+    <span style="color: white;font-weight: bold;">Enter MIS No.:</span>
+    <input type="text" id="nameInput" style="color: #000; padding: 5px; max-width: 200px;">
+  </div>
+</div>`
+
+  
+  
 	+'<div class="container-fluid" style="margin-top:5px;">'
-	  
+	
 	+' <!-- Title -->'
 
 //	+'  <h3 class="text-center heading">Spray Drying Pilot Plant</h3>'
@@ -407,5 +417,49 @@ function result(){
 	        ]
 	    }]
 	});
-
+   
+   
+   $("#report").click(function() {
+		tmp = $("#nameInput").val();
+		if(tmp != ""){
+			
+			  // Restore value from localStorage when page loads
+			  const savedName = localStorage.getItem("username");
+			  if (savedName) {
+			    $('#nameInput').val(savedName);
+			  }
+ 
+			  // Save input on change
+			  $('#nameInput').on('input', function() {
+			    localStorage.setItem("username", $(this).val());
+			  });
+			
+ 
+			console.log("click triggred");
+ 
+			const button = document.getElementById("report");
+			button.hidden = true;
+ 
+			html2canvas(document.querySelector("#main-div"), {
+				useCORS: true,
+				allowTaint: false,
+				backgroundColor: null
+			}).then(canvas => {
+				let link = document.createElement('a');
+				link.download = 'HookUp_report.png';
+				link.href = canvas.toDataURL("image/png");
+				link.click();
+//				$("#btnNext").prop("hidden", false);
+			}).catch(err => {
+				console.error("Screenshot failed:", err);
+			}).finally(() => {
+				button.hidden = true;
+			});
+			$("#mis").prop("hidden",true);
+			
+			}else{
+				alert("Enter MIS no");
+			}
+	});
+   
 }
