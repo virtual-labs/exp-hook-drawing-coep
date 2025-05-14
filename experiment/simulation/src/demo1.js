@@ -762,9 +762,28 @@ function Diagram1() {
 					});
 					$("#resultBtn1").prop("hidden", true);
 				} else {
-					Swal.fire({
+//					Swal.fire({
+//						icon: 'success',
+//						title: 'Form submitted successfully!',
+//						confirmButtonText: 'OK',
+//						customClass: {
+//							icon: 'custom-icon',
+//							popup: 'custom-popup',
+//							title: 'custom-title',
+//							confirmButton: 'custom-confirm-button',
+//							cancelButton: 'custom-cancel-button',
+//						}
+//					});
+
+					$("#validateTable").prop("hidden", true);
+					timerMasterJson.hookup1 = $("#counter").text();
+				console.log(timerMasterJson);
+				seconds = 0;
+				updateCounter();
+					if (hookUpPhase < 4) {
+						Swal.fire({
 						icon: 'success',
-						title: 'Form submitted successfully!',
+						title: 'Form submitted successfully! <br> Select another hook up diagram.',
 						confirmButtonText: 'OK',
 						customClass: {
 							icon: 'custom-icon',
@@ -774,13 +793,6 @@ function Diagram1() {
 							cancelButton: 'custom-cancel-button',
 						}
 					});
-
-					$("#validateTable").prop("hidden", true);
-					timerMasterJson.hookup1 = $("#counter").text();
-				console.log(timerMasterJson);
-				seconds = 0;
-				updateCounter();
-					if (hookUpPhase < 4) {
 						$('html, body').animate({ scrollTop: 0 }, 'slow');
 						$("#hookUpSelect").val(0);
 						$("#hookUpSelect").prop("disabled", false);

@@ -171,6 +171,7 @@ option, select{
     color: #fff;
     border-style: solid;
     border-color: #7baea7;
+    justify-content: center;
 }
 
 .card {
