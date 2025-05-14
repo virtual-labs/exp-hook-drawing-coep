@@ -1,0 +1,135 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the primary purpose of a hook-up diagram in an automation project?",
+      "answers": {
+        "a": "To specify the instrument installation details ",
+        "b": "To design the control system architecture",
+        "c": "To develop the process piping layout",
+        "d": "To configure the instrument calibration settings"
+		
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following instruments would typically be connected to a 4-20 mA signal?",
+      "answers": {
+        "a": "Temperature transmitter",
+        "b": "Pressure gauge",
+        "c": "Flow meter",
+        "d": "Level switch"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the typical function of a junction box in an automation project?",
+      "answers": {
+        "a": "To provide power supply to instruments",
+        "b": "To connect multiple instruments to a single signal cable",
+        "c": "To house the control system PLC",
+        "d": "To provide environmental protection to instruments"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+	{
+      "question": "A hook-up diagram for a level transmitter would typically include which of the following?",
+      "answers": {
+        "a": "Pipe size and material",
+        "b": "Level measurement range",
+        "c": "Instrument power supply details",
+        "d": "All mentioned"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "What is the purpose of a tag number in a hook-up diagram?",
+      "answers": {
+        "a": "To identify the instrument location",
+        "b": "To specify the instrument type",
+        "c": "To provide a unique identifier for each instrument",
+        "d": "To indicate the instrument calibration frequency"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+  
+  {
+      "question": "Which of the following is a common mistake to avoid when creating a hook-up diagram?",
+      "answers": {
+        "a": "Omitting instrument tag numbers",
+        "b": "Using inconsistent notation and symbols",
+        "c": "Failing to include instrument power supply details",
+        "d": "All mentioned"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+	
+    {
+      "question": "A hook-up diagram for a flow meter would typically include which of the following?",
+      "answers": {
+         "a": "Flow direction indicator",
+        "b": "Pipe size and material",
+        "c": "Instrument calibration settings",
+        "d": "All mentioned"
+		
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the benefit of using a standardized symbol set in hook-up diagrams?",
+      "answers": {
+        "a": "Easier to create diagrams",
+        "b": "Improved diagram readability",
+        "c": "Reduced errors in instrument installation",
+        "d": "All mentioned"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is a best practice when reviewing a hook-up diagram?",
+      "answers": {
+        "a": "Verify the instrument tag numbers and locations",
+        "b": "Check the instrument power supply and signal connections",
+        "c": "Ensure consistency in notation and symbols used",
+        "d": "All mentioned"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+	{
+      "question": "What is the primary advantage of using hook-up diagrams in an automation project?",
+      "answers": {
+        "a": "Reduced project timelines",
+        "b": "Improved instrument installation accuracy",
+        "c": "Enhanced collaboration among project team members",
+        "d": "All mentioned"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+  
+  
+  
+  
+  
+  ]
+}

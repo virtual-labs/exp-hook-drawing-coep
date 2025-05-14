@@ -1,0 +1,1143 @@
+
+/home/runner/work/exp-hook-drawing-coep/exp-hook-drawing-coep/experiment/simulation/lib/jquery.js
+  2:58     warning  'module' is not defined                                                    no-undef
+  2:73     warning  'module' is not defined                                                    no-undef
+  2:6324   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:6580   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:7011   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:7270   warning  Empty block statement                                                      no-empty
+  2:7839   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:9709   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11311  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11887  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11925  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:12343  warning  Empty block statement                                                      no-empty
+  2:12906  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:13218  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15046  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15317  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15517  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15893  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:16598  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:18982  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:19073  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:19133  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:20435  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:21049  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:21160  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:23420  warning  Unnecessary escape character: \[                                           no-useless-escape
+  2:23422  warning  Unnecessary escape character: \.                                           no-useless-escape
+  2:30761  warning  Empty block statement                                                      no-empty
+  2:31981  warning  Empty block statement                                                      no-empty
+  3:7811   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:7951   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:8441   warning  Empty block statement                                                      no-empty
+  3:11852  warning  Empty block statement                                                      no-empty
+  3:14493  warning  Empty block statement                                                      no-empty
+  3:24051  warning  Empty block statement                                                      no-empty
+  3:26100  warning  Move function declaration to function body root                            no-inner-declarations
+  3:30714  warning  Empty block statement                                                      no-empty
+  4:2546   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:5062   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:11701  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:13447  warning  Empty block statement                                                      no-empty
+  4:14747  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:14827  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:15164  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:15244  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:15659  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:15915  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:16492  warning  Unnecessary escape character: \/                                           no-useless-escape
+  4:17365  warning  Unnecessary escape character: \/                                           no-useless-escape
+  4:17377  warning  Unnecessary escape character: \/                                           no-useless-escape
+  4:17610  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:20109  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:22009  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:27128  warning  Empty block statement                                                      no-empty
+  4:27205  warning  Empty block statement                                                      no-empty
+  5:812    warning  'define' is not defined                                                    no-undef
+  5:824    warning  'define' is not defined                                                    no-undef
+
+/home/runner/work/exp-hook-drawing-coep/exp-hook-drawing-coep/experiment/simulation/lib/jquery.min.js
+  2:71     warning  'module' is not defined                                                    no-undef
+  2:86     warning  'module' is not defined                                                    no-undef
+  2:5433   warning  Unexpected control character(s) in regular expression: \x1f, \x1f          no-control-regex
+  2:5916   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:6170   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:6614   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:7404   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:9497   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:9807   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11608  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:12183  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:12221  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:13234  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:13546  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15374  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15645  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15843  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:16217  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:16907  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:18727  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:18827  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:18887  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:19071  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:20240  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:21514  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:21625  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:23791  warning  Unnecessary escape character: \/                                           no-useless-escape
+  2:33395  warning  Empty block statement                                                      no-empty
+  2:37269  warning  Unnecessary escape character: \/                                           no-useless-escape
+  2:38490  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:38606  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:39234  warning  Empty block statement                                                      no-empty
+  2:46727  warning  Unnecessary escape character: \/                                           no-useless-escape
+  2:49033  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:50593  warning  Empty block statement                                                      no-empty
+  2:58406  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:59575  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:65215  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:66958  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:67024  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:67328  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:67394  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:67801  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:68078  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:73449  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:75043  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:75823  warning  'r.href' is assigned to itself                                             no-self-assign
+  2:80414  warning  Empty block statement                                                      no-empty
+  2:83525  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:87869  warning  'define' is not defined                                                    no-undef
+  2:87881  warning  'define' is not defined                                                    no-undef
+
+/home/runner/work/exp-hook-drawing-coep/exp-hook-drawing-coep/experiment/simulation/lib/raphael.js
+  5800:60  error  Parsing error: Deleting local variable in strict mode
+
+/home/runner/work/exp-hook-drawing-coep/exp-hook-drawing-coep/experiment/simulation/lib/raphael.min.js
+  1:66     warning  'module' is not defined                                                                                                                          no-undef
+  1:112    warning  'define' is not defined                                                                                                                          no-undef
+  1:123    warning  'define' is not defined                                                                                                                          no-undef
+  1:161    warning  'exports' is not defined                                                                                                                         no-undef
+  1:1566   warning  'DocumentTouch' is not defined                                                                                                                   no-undef
+  1:2001   warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:2017   warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:2033   warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:2052   warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:2081   warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:2110   warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:2126   warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:2145   warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:2174   warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:2203   warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:2219   warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:2238   warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:2346   warning  Unnecessary escape character: \)                                                                                                                 no-useless-escape
+  1:3257   warning  Unexpected control character(s) in regular expression: \x09, \x0a, \x0b, \x0c, \x0d, \x09, \x0a, \x0b, \x0c, \x0d                                no-control-regex
+  1:3582   warning  Unexpected control character(s) in regular expression: \x09, \x0a, \x0b, \x0c, \x0d, \x09, \x0a, \x0b, \x0c, \x0d, \x09, \x0a, \x0b, \x0c, \x0d  no-control-regex
+  1:3756   warning  Unnecessary escape character: \-                                                                                                                 no-useless-escape
+  1:4055   warning  Unexpected control character(s) in regular expression: \x09, \x0a, \x0b, \x0c, \x0d, \x09, \x0a, \x0b, \x0c, \x0d, \x09, \x0a, \x0b, \x0c, \x0d  no-control-regex
+  1:4222   warning  Unnecessary escape character: \-                                                                                                                 no-useless-escape
+  1:4521   warning  Unexpected control character(s) in regular expression: \x09, \x0a, \x0b, \x0c, \x0d, \x09, \x0a, \x0b, \x0c, \x0d                                no-control-regex
+  1:4539   warning  Unnecessary escape character: \-                                                                                                                 no-useless-escape
+  1:4856   warning  Unexpected control character(s) in regular expression: \x09, \x0a, \x0b, \x0c, \x0d, \x09, \x0a, \x0b, \x0c, \x0d                                no-control-regex
+  1:5154   warning  Unnecessary escape character: \)                                                                                                                 no-useless-escape
+  1:7857   warning  'ActiveXObject' is not defined                                                                                                                   no-undef
+  1:7931   warning  'createPopup' is not defined                                                                                                                     no-undef
+  1:19015  warning  Expected a 'break' statement before 'default'                                                                                                    no-fallthrough
+  1:20113  warning  Expected a 'break' statement before 'default'                                                                                                    no-fallthrough
+  1:20421  warning  Expected a 'break' statement before 'default'                                                                                                    no-fallthrough
+  1:24342  warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:35757  warning  't' is defined but never used                                                                                                                    no-unused-vars
+  1:49075  warning  'r' is defined but never used                                                                                                                    no-unused-vars
+  1:50549  warning  'i' is defined but never used                                                                                                                    no-unused-vars
+  1:50598  warning  'r' is defined but never used                                                                                                                    no-unused-vars
+  1:52666  warning  Unnecessary escape character: \}                                                                                                                 no-useless-escape
+  1:53074  warning  Empty block statement                                                                                                                            no-empty
+  1:53754  warning  Unnecessary escape character: \)                                                                                                                 no-useless-escape
+  1:60967  warning  Unnecessary escape character: \-                                                                                                                 no-useless-escape
+  1:72245  warning  Unnecessary escape character: \-                                                                                                                 no-useless-escape
+  1:72515  warning  Unnecessary escape character: \(                                                                                                                 no-useless-escape
+  1:72517  warning  Unnecessary escape character: \)                                                                                                                 no-useless-escape
+  1:75570  warning  Expected a conditional expression and instead saw an assignment                                                                                  no-cond-assign
+  1:77369  warning  Expected a 'break' statement before 'case'                                                                                                       no-fallthrough
+  1:77405  warning  Expected a 'break' statement before 'case'                                                                                                       no-fallthrough
+  1:77447  warning  Expected a 'break' statement before 'case'                                                                                                       no-fallthrough
+  1:77582  warning  Expected a 'break' statement before 'case'                                                                                                       no-fallthrough
+  1:77619  warning  Expected a 'break' statement before 'case'                                                                                                       no-fallthrough
+  1:77661  warning  Expected a 'break' statement before 'case'                                                                                                       no-fallthrough
+  1:79325  warning  Expected a 'break' statement before 'case'                                                                                                       no-fallthrough
+  1:79783  warning  Expected a 'break' statement before 'case'                                                                                                       no-fallthrough
+  1:79973  warning  Expected a 'break' statement before 'default'                                                                                                    no-fallthrough
+  1:80032  warning  Unnecessary escape character: \-                                                                                                                 no-useless-escape
+  1:89485  warning  'r' is defined but never used                                                                                                                    no-unused-vars
+  1:89543  warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:89545  warning  Unnecessary escape character: \/                                                                                                                 no-useless-escape
+  1:90733  warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:90735  warning  Unnecessary escape character: \^                                                                                                                 no-useless-escape
+  1:90739  warning  Unnecessary escape character: \[                                                                                                                 no-useless-escape
+  1:90741  warning  Unnecessary escape character: \-                                                                                                                 no-useless-escape
+  1:90780  warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:90782  warning  Unnecessary escape character: \/                                                                                                                 no-useless-escape
+  1:91000  warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                                        no-prototype-builtins
+
+/home/runner/work/exp-hook-drawing-coep/exp-hook-drawing-coep/experiment/simulation/src/bootstrap.min.js
+  6:71     warning  'exports' is not defined       no-undef
+  6:79     warning  'require' is not defined       no-undef
+  6:97     warning  'require' is not defined       no-undef
+  6:146    warning  'define' is not defined        no-undef
+  6:157    warning  'define' is not defined        no-undef
+  6:657    warning  'r' is a function              no-func-assign
+  6:38683  warning  'n' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-hook-drawing-coep/exp-hook-drawing-coep/experiment/simulation/src/demo.js
+    6:10   warning  'Diagram' is defined but never used                 no-unused-vars
+   10:3    warning  '$' is not defined                                  no-undef
+   15:16   warning  'Raphael' is not defined                            no-undef
+   20:6    warning  'wrongCnt' is assigned a value but never used       no-unused-vars
+   21:6    warning  'wrongAttempts' is assigned a value but never used  no-unused-vars
+   23:15   warning  'y' is not defined                                  no-undef
+   27:54   warning  'y' is not defined                                  no-undef
+   30:6    warning  'pipe1' is assigned a value but never used          no-unused-vars
+   30:54   warning  'y' is not defined                                  no-undef
+   30:105  warning  'y' is not defined                                  no-undef
+   30:158  warning  'y' is not defined                                  no-undef
+   31:6    warning  'pipe2' is assigned a value but never used          no-unused-vars
+   31:54   warning  'y' is not defined                                  no-undef
+   31:105  warning  'y' is not defined                                  no-undef
+   31:158  warning  'y' is not defined                                  no-undef
+   33:6    warning  'v1' is assigned a value but never used             no-unused-vars
+   33:63   warning  'y' is not defined                                  no-undef
+   34:6    warning  'v2' is assigned a value but never used             no-unused-vars
+   34:63   warning  'y' is not defined                                  no-undef
+   36:6    warning  'v3' is assigned a value but never used             no-unused-vars
+   36:63   warning  'y' is not defined                                  no-undef
+   37:6    warning  'v4' is assigned a value but never used             no-unused-vars
+   37:63   warning  'y' is not defined                                  no-undef
+   39:6    warning  'afterV1' is assigned a value but never used        no-unused-vars
+   39:52   warning  'y' is not defined                                  no-undef
+   40:6    warning  'afterV2' is assigned a value but never used        no-unused-vars
+   40:52   warning  'y' is not defined                                  no-undef
+   42:6    warning  'v11' is assigned a value but never used            no-unused-vars
+   42:50   warning  'y' is not defined                                  no-undef
+   43:49   warning  'y' is not defined                                  no-undef
+   46:6    warning  'v111' is already defined                           no-redeclare
+   46:6    warning  'v111' is assigned a value but never used           no-unused-vars
+   46:51   warning  'y' is not defined                                  no-undef
+   47:6    warning  'v1111' is assigned a value but never used          no-unused-vars
+   47:50   warning  'y' is not defined                                  no-undef
+   50:6    warning  'v1Line' is assigned a value but never used         no-unused-vars
+   50:53   warning  'y' is not defined                                  no-undef
+   51:6    warning  'v2Line' is assigned a value but never used         no-unused-vars
+   51:53   warning  'y' is not defined                                  no-undef
+   53:6    warning  'labelTxtSteam' is assigned a value but never used  no-unused-vars
+   53:45   warning  'y' is not defined                                  no-undef
+   62:6    warning  'labelTxt' is assigned a value but never used       no-unused-vars
+   62:40   warning  'y' is not defined                                  no-undef
+   70:6    warning  'labelTxt1' is assigned a value but never used      no-unused-vars
+   70:41   warning  'y' is not defined                                  no-undef
+   78:18   warning  'y' is not defined                                  no-undef
+   79:18   warning  'y' is not defined                                  no-undef
+   81:6    warning  'rectPlate' is assigned a value but never used      no-unused-vars
+   81:43   warning  'y' is not defined                                  no-undef
+   85:7    warning  'rectO' is assigned a value but never used          no-unused-vars
+   89:6    warning  'dptRect' is assigned a value but never used        no-unused-vars
+   89:39   warning  'y' is not defined                                  no-undef
+   91:6    warning  'rect1' is assigned a value but never used          no-unused-vars
+   91:37   warning  'y' is not defined                                  no-undef
+   92:6    warning  'rect2' is assigned a value but never used          no-unused-vars
+   92:37   warning  'y' is not defined                                  no-undef
+   95:6    warning  'labelTxt11' is assigned a value but never used     no-unused-vars
+   95:42   warning  'y' is not defined                                  no-undef
+  103:6    warning  'labelTxt111' is assigned a value but never used    no-unused-vars
+  103:43   warning  'y' is not defined                                  no-undef
+  113:6    warning  'dptTxt' is assigned a value but never used         no-unused-vars
+  113:38   warning  'y' is not defined                                  no-undef
+  121:6    warning  'scopeLine' is assigned a value but never used      no-unused-vars
+  121:54   warning  'y' is not defined                                  no-undef
+  127:6    warning  'a1' is assigned a value but never used             no-unused-vars
+  127:49   warning  'y' is not defined                                  no-undef
+  128:6    warning  'a11' is assigned a value but never used            no-unused-vars
+  128:48   warning  'y' is not defined                                  no-undef
+  129:6    warning  'a111' is assigned a value but never used           no-unused-vars
+  129:51   warning  'y' is not defined                                  no-undef
+  130:6    warning  'a1111' is assigned a value but never used          no-unused-vars
+  130:50   warning  'y' is not defined                                  no-undef
+  132:6    warning  'pathFive' is assigned a value but never used       no-unused-vars
+  132:53   warning  'y' is not defined                                  no-undef
+  133:6    warning  'pathSix' is assigned a value but never used        no-unused-vars
+  133:51   warning  'y' is not defined                                  no-undef
+  134:6    warning  'pathSeven' is assigned a value but never used      no-unused-vars
+  134:53   warning  'y' is not defined                                  no-undef
+  136:19   warning  'y' is not defined                                  no-undef
+  137:18   warning  'y' is not defined                                  no-undef
+  138:18   warning  'y' is not defined                                  no-undef
+  139:19   warning  'y' is not defined                                  no-undef
+  142:7    warning  'cir' is assigned a value but never used            no-unused-vars
+  143:7    warning  'txt' is assigned a value but never used            no-unused-vars
+  150:13   warning  'y' is not defined                                  no-undef
+  151:21   warning  'y' is not defined                                  no-undef
+  153:6    warning  'b1' is assigned a value but never used             no-unused-vars
+  153:47   warning  'y' is not defined                                  no-undef
+  154:6    warning  'b11' is assigned a value but never used            no-unused-vars
+  154:47   warning  'y' is not defined                                  no-undef
+  157:7    warning  'cir' is assigned a value but never used            no-unused-vars
+  158:7    warning  'txt' is assigned a value but never used            no-unused-vars
+  165:47   warning  'y' is not defined                                  no-undef
+  167:13   warning  'y' is not defined                                  no-undef
+  169:7    warning  'cir' is assigned a value but never used            no-unused-vars
+  170:7    warning  'txt' is assigned a value but never used            no-unused-vars
+  179:6    warning  'c1' is already defined                             no-redeclare
+  179:6    warning  'c1' is assigned a value but never used             no-unused-vars
+  179:47   warning  'y' is not defined                                  no-undef
+  181:6    warning  'cir' is assigned a value but never used            no-unused-vars
+  181:37   warning  'y' is not defined                                  no-undef
+  182:6    warning  'txt' is assigned a value but never used            no-unused-vars
+  182:35   warning  'y' is not defined                                  no-undef
+  189:6    warning  'cir5' is assigned a value but never used           no-unused-vars
+  189:38   warning  'y' is not defined                                  no-undef
+  190:6    warning  'txt5' is assigned a value but never used           no-unused-vars
+  190:36   warning  'y' is not defined                                  no-undef
+  198:6    warning  'cir6' is assigned a value but never used           no-unused-vars
+  198:37   warning  'y' is not defined                                  no-undef
+  199:6    warning  'txt6' is assigned a value but never used           no-unused-vars
+  199:35   warning  'y' is not defined                                  no-undef
+  207:6    warning  'cir7' is assigned a value but never used           no-unused-vars
+  207:37   warning  'y' is not defined                                  no-undef
+  208:6    warning  'txt7' is assigned a value but never used           no-unused-vars
+  208:35   warning  'y' is not defined                                  no-undef
+  596:5    warning  'Swal' is not defined                               no-undef
+  609:5    warning  'Swal' is not defined                               no-undef
+  629:5    warning  'Swal' is not defined                               no-undef
+  642:5    warning  'Swal' is not defined                               no-undef
+  661:4    warning  'Swal' is not defined                               no-undef
+  674:4    warning  '$' is not defined                                  no-undef
+  675:4    warning  '$' is not defined                                  no-undef
+  676:4    warning  '$' is not defined                                  no-undef
+  677:4    warning  '$' is not defined                                  no-undef
+  684:4    warning  'renderShuffledOptions' is not defined              no-undef
+  692:3    warning  '$' is not defined                                  no-undef
+  694:3    warning  '$' is not defined                                  no-undef
+  729:3    warning  '$' is not defined                                  no-undef
+  730:4    warning  '$' is not defined                                  no-undef
+  732:18   warning  '$' is not defined                                  no-undef
+  735:21   warning  '$' is not defined                                  no-undef
+  758:6    warning  'Swal' is not defined                               no-undef
+  770:6    warning  '$' is not defined                                  no-undef
+  771:6    warning  '$' is not defined                                  no-undef
+  772:6    warning  '$' is not defined                                  no-undef
+  776:6    warning  '$' is not defined                                  no-undef
+  777:31   warning  '$' is not defined                                  no-undef
+  779:6    warning  'seconds' is not defined                            no-undef
+  780:6    warning  'updateCounter' is not defined                      no-undef
+  781:10   warning  'hookUpPhase' is not defined                        no-undef
+  782:7    warning  'Swal' is not defined                               no-undef
+  794:7    warning  '$' is not defined                                  no-undef
+  795:7    warning  '$' is not defined                                  no-undef
+  796:7    warning  '$' is not defined                                  no-undef
+  798:7    warning  '$' is not defined                                  no-undef
+  803:4    warning  '$' is not defined                                  no-undef
+  804:5    warning  'result' is not defined                             no-undef
+  808:3    warning  '$' is not defined                                  no-undef
+
+/home/runner/work/exp-hook-drawing-coep/exp-hook-drawing-coep/experiment/simulation/src/demo1.js
+    5:10  warning  'Diagram1' is defined but never used                no-unused-vars
+    7:2   warning  '$' is not defined                                  no-undef
+    8:2   warning  '$' is not defined                                  no-undef
+    9:2   warning  '$' is not defined                                  no-undef
+   14:16  warning  'Raphael' is not defined                            no-undef
+   19:6   warning  'wrongCnt' is assigned a value but never used       no-unused-vars
+   20:6   warning  'wrongAttempts' is assigned a value but never used  no-unused-vars
+   22:15  warning  'y' is not defined                                  no-undef
+   26:6   warning  'inlet' is assigned a value but never used          no-unused-vars
+   26:49  warning  'y' is not defined                                  no-undef
+   29:6   warning  'outlet' is assigned a value but never used         no-unused-vars
+   29:51  warning  'y' is not defined                                  no-undef
+   34:6   warning  'pneumaticLine' is assigned a value but never used  no-unused-vars
+   34:60  warning  'y' is not defined                                  no-undef
+   35:26  warning  'y' is not defined                                  no-undef
+   36:26  warning  'y' is not defined                                  no-undef
+   41:6   warning  'fromIp' is assigned a value but never used         no-unused-vars
+   41:38  warning  'y' is not defined                                  no-undef
+   46:6   warning  'converter' is assigned a value but never used      no-unused-vars
+   46:41  warning  'y' is not defined                                  no-undef
+   51:6   warning  'inletTxt' is assigned a value but never used       no-unused-vars
+   51:39  warning  'y' is not defined                                  no-undef
+   56:6   warning  'ipLine' is assigned a value but never used         no-unused-vars
+   56:37  warning  'y' is not defined                                  no-undef
+   61:6   warning  'outPutTxt' is assigned a value but never used      no-unused-vars
+   61:41  warning  'y' is not defined                                  no-undef
+   66:6   warning  'opLine' is assigned a value but never used         no-unused-vars
+   66:38  warning  'y' is not defined                                  no-undef
+   74:37  warning  'y' is not defined                                  no-undef
+   75:35  warning  'y' is not defined                                  no-undef
+   80:6   warning  'c1Conn' is assigned a value but never used         no-unused-vars
+   80:53  warning  'y' is not defined                                  no-undef
+   84:13  warning  'y' is not defined                                  no-undef
+   85:21  warning  'y' is not defined                                  no-undef
+   87:7   warning  'cir' is assigned a value but never used            no-unused-vars
+   88:7   warning  'txt' is assigned a value but never used            no-unused-vars
+   94:6   warning  'c2Conn' is assigned a value but never used         no-unused-vars
+   94:51  warning  'y' is not defined                                  no-undef
+   95:6   warning  'c22Conn' is assigned a value but never used        no-unused-vars
+   95:52  warning  'y' is not defined                                  no-undef
+  100:6   warning  'cir' is already defined                            no-redeclare
+  100:6   warning  'cir' is assigned a value but never used            no-unused-vars
+  100:37  warning  'y' is not defined                                  no-undef
+  101:6   warning  'txt' is already defined                            no-redeclare
+  101:6   warning  'txt' is assigned a value but never used            no-unused-vars
+  101:35  warning  'y' is not defined                                  no-undef
+  106:6   warning  'c3Conn' is assigned a value but never used         no-unused-vars
+  106:51  warning  'y' is not defined                                  no-undef
+  110:13  warning  'y' is not defined                                  no-undef
+  111:18  warning  'y' is not defined                                  no-undef
+  113:7   warning  'cir' is assigned a value but never used            no-unused-vars
+  114:7   warning  'txt' is assigned a value but never used            no-unused-vars
+  119:6   warning  'c4Conn' is assigned a value but never used         no-unused-vars
+  119:53  warning  'y' is not defined                                  no-undef
+  120:6   warning  'c44Conn' is assigned a value but never used        no-unused-vars
+  120:52  warning  'y' is not defined                                  no-undef
+  127:6   warning  's1' is assigned a value but never used             no-unused-vars
+  127:47  warning  'y' is not defined                                  no-undef
+  130:6   warning  's2' is assigned a value but never used             no-unused-vars
+  130:47  warning  'y' is not defined                                  no-undef
+  135:6   warning  'dim10Line' is assigned a value but never used      no-unused-vars
+  135:54  warning  'y' is not defined                                  no-undef
+  136:6   warning  'dim10LineV' is assigned a value but never used     no-unused-vars
+  136:55  warning  'y' is not defined                                  no-undef
+  137:6   warning  'dim10LineV1' is assigned a value but never used    no-unused-vars
+  137:56  warning  'y' is not defined                                  no-undef
+  139:38  warning  'y' is not defined                                  no-undef
+  144:6   warning  'dim5Line' is assigned a value but never used       no-unused-vars
+  144:53  warning  'y' is not defined                                  no-undef
+  145:6   warning  'dim5LineV' is assigned a value but never used      no-unused-vars
+  145:54  warning  'y' is not defined                                  no-undef
+  146:6   warning  'dim5LineV1' is assigned a value but never used     no-unused-vars
+  146:55  warning  'y' is not defined                                  no-undef
+  148:6   warning  'd10Txt' is already defined                         no-redeclare
+  148:6   warning  'd10Txt' is assigned a value but never used         no-unused-vars
+  148:38  warning  'y' is not defined                                  no-undef
+  154:48  warning  'y' is not defined                                  no-undef
+  156:21  warning  'y' is not defined                                  no-undef
+  169:25  warning  'y' is not defined                                  no-undef
+  170:25  warning  'y' is not defined                                  no-undef
+  171:23  warning  'y' is not defined                                  no-undef
+  172:25  warning  'y' is not defined                                  no-undef
+  175:23  warning  'y' is not defined                                  no-undef
+  176:23  warning  'y' is not defined                                  no-undef
+  185:44  warning  'y' is not defined                                  no-undef
+  192:51  warning  'y' is not defined                                  no-undef
+  194:53  warning  'y' is not defined                                  no-undef
+  196:51  warning  'y' is not defined                                  no-undef
+  198:51  warning  'y' is not defined                                  no-undef
+  212:23  warning  'y' is not defined                                  no-undef
+  213:23  warning  'y' is not defined                                  no-undef
+  214:25  warning  'y' is not defined                                  no-undef
+  215:23  warning  'y' is not defined                                  no-undef
+  216:23  warning  'y' is not defined                                  no-undef
+  217:23  warning  'y' is not defined                                  no-undef
+  270:34  warning  'y' is not defined                                  no-undef
+  287:21  warning  'y' is not defined                                  no-undef
+  288:21  warning  'y' is not defined                                  no-undef
+  289:21  warning  'y' is not defined                                  no-undef
+  290:21  warning  'y' is not defined                                  no-undef
+  291:23  warning  'y' is not defined                                  no-undef
+  292:21  warning  'y' is not defined                                  no-undef
+  294:23  warning  'y' is not defined                                  no-undef
+  295:23  warning  'y' is not defined                                  no-undef
+  305:27  warning  'y' is not defined                                  no-undef
+  306:18  warning  'y' is not defined                                  no-undef
+  381:55  warning  'y' is not defined                                  no-undef
+  571:5   warning  'Swal' is not defined                               no-undef
+  591:4   warning  'Swal' is not defined                               no-undef
+  620:5   warning  'Swal' is not defined                               no-undef
+  641:5   warning  'Swal' is not defined                               no-undef
+  657:4   warning  'Swal' is not defined                               no-undef
+  670:4   warning  '$' is not defined                                  no-undef
+  671:4   warning  '$' is not defined                                  no-undef
+  672:4   warning  '$' is not defined                                  no-undef
+  673:4   warning  '$' is not defined                                  no-undef
+  676:4   warning  'renderShuffledOptions1' is not defined             no-undef
+  685:3   warning  '$' is not defined                                  no-undef
+  687:3   warning  '$' is not defined                                  no-undef
+  722:3   warning  '$' is not defined                                  no-undef
+  723:4   warning  '$' is not defined                                  no-undef
+  725:18  warning  '$' is not defined                                  no-undef
+  728:21  warning  '$' is not defined                                  no-undef
+  751:6   warning  'Swal' is not defined                               no-undef
+  763:6   warning  '$' is not defined                                  no-undef
+  778:6   warning  '$' is not defined                                  no-undef
+  779:6   warning  'timerMasterJson' is not defined                    no-undef
+  779:32  warning  '$' is not defined                                  no-undef
+  780:17  warning  'timerMasterJson' is not defined                    no-undef
+  781:5   warning  'seconds' is not defined                            no-undef
+  782:5   warning  'updateCounter' is not defined                      no-undef
+  783:10  warning  'hookUpPhase' is not defined                        no-undef
+  784:7   warning  'Swal' is not defined                               no-undef
+  796:7   warning  '$' is not defined                                  no-undef
+  797:7   warning  '$' is not defined                                  no-undef
+  798:7   warning  '$' is not defined                                  no-undef
+  800:7   warning  '$' is not defined                                  no-undef
+  805:4   warning  '$' is not defined                                  no-undef
+  806:5   warning  'result' is not defined                             no-undef
+  810:3   warning  '$' is not defined                                  no-undef
+
+/home/runner/work/exp-hook-drawing-coep/exp-hook-drawing-coep/experiment/simulation/src/demo2.js
+    5:10  warning  'Diagram2' is defined but never used                  no-unused-vars
+    8:2   warning  '$' is not defined                                    no-undef
+    9:2   warning  '$' is not defined                                    no-undef
+   10:2   warning  '$' is not defined                                    no-undef
+   15:16  warning  'Raphael' is not defined                              no-undef
+   20:6   warning  'wrongCnt' is assigned a value but never used         no-unused-vars
+   21:6   warning  'wrongAttempts' is assigned a value but never used    no-unused-vars
+   23:15  warning  'y' is not defined                                    no-undef
+   28:6   warning  'acRect' is assigned a value but never used           no-unused-vars
+   28:30  warning  'y' is not defined                                    no-undef
+   32:6   warning  'v1' is assigned a value but never used               no-unused-vars
+   32:48  warning  'y' is not defined                                    no-undef
+   33:6   warning  'v11' is assigned a value but never used              no-unused-vars
+   33:49  warning  'y' is not defined                                    no-undef
+   35:6   warning  'v2' is assigned a value but never used               no-unused-vars
+   35:46  warning  'y' is not defined                                    no-undef
+   36:6   warning  'v3' is assigned a value but never used               no-unused-vars
+   36:46  warning  'y' is not defined                                    no-undef
+   37:6   warning  'v4' is assigned a value but never used               no-unused-vars
+   37:46  warning  'y' is not defined                                    no-undef
+   38:6   warning  'v5' is assigned a value but never used               no-unused-vars
+   38:46  warning  'y' is not defined                                    no-undef
+   39:6   warning  'v6' is assigned a value but never used               no-unused-vars
+   39:45  warning  'y' is not defined                                    no-undef
+   41:6   warning  'v66' is assigned a value but never used              no-unused-vars
+   41:46  warning  'y' is not defined                                    no-undef
+   42:6   warning  'v66Arr' is assigned a value but never used           no-unused-vars
+   42:53  warning  'y' is not defined                                    no-undef
+   44:6   warning  'airHeaderLine' is assigned a value but never used    no-unused-vars
+   44:60  warning  'y' is not defined                                    no-undef
+   46:6   warning  'converterLine' is assigned a value but never used    no-unused-vars
+   46:58  warning  'y' is not defined                                    no-undef
+   49:6   warning  'airHeaderText' is assigned a value but never used    no-unused-vars
+   49:45  warning  'y' is not defined                                    no-undef
+   54:6   warning  'airHeaderText1' is assigned a value but never used   no-unused-vars
+   54:46  warning  'y' is not defined                                    no-undef
+   59:6   warning  'instrumentText1' is assigned a value but never used  no-unused-vars
+   59:46  warning  'y' is not defined                                    no-undef
+   64:6   warning  'instrumentText2' is assigned a value but never used  no-unused-vars
+   64:46  warning  'y' is not defined                                    no-undef
+   69:6   warning  'fromController' is assigned a value but never used   no-unused-vars
+   69:46  warning  'y' is not defined                                    no-undef
+   74:6   warning  'fromController1' is assigned a value but never used  no-unused-vars
+   74:47  warning  'y' is not defined                                    no-undef
+   79:6   warning  'drain' is assigned a value but never used            no-unused-vars
+   79:36  warning  'y' is not defined                                    no-undef
+   86:6   warning  'cir' is assigned a value but never used              no-unused-vars
+   86:37  warning  'y' is not defined                                    no-undef
+   87:6   warning  'txt' is assigned a value but never used              no-unused-vars
+   87:35  warning  'y' is not defined                                    no-undef
+   91:6   warning  'c1Conn' is assigned a value but never used           no-unused-vars
+   91:53  warning  'y' is not defined                                    no-undef
+   95:6   warning  'cir2' is assigned a value but never used             no-unused-vars
+   95:38  warning  'y' is not defined                                    no-undef
+   96:6   warning  'txt2' is assigned a value but never used             no-unused-vars
+   96:36  warning  'y' is not defined                                    no-undef
+  100:6   warning  'c2Conn' is assigned a value but never used           no-unused-vars
+  100:51  warning  'y' is not defined                                    no-undef
+  104:6   warning  'cir3' is assigned a value but never used             no-unused-vars
+  104:38  warning  'y' is not defined                                    no-undef
+  105:6   warning  'txt3' is assigned a value but never used             no-unused-vars
+  105:36  warning  'y' is not defined                                    no-undef
+  110:51  warning  'y' is not defined                                    no-undef
+  114:6   warning  'cir4' is assigned a value but never used             no-unused-vars
+  114:40  warning  'y' is not defined                                    no-undef
+  115:6   warning  'txt4' is assigned a value but never used             no-unused-vars
+  115:38  warning  'y' is not defined                                    no-undef
+  119:6   warning  'c3Conn' is already defined                           no-redeclare
+  119:6   warning  'c3Conn' is assigned a value but never used           no-unused-vars
+  119:53  warning  'y' is not defined                                    no-undef
+  123:6   warning  'cir5' is assigned a value but never used             no-unused-vars
+  123:37  warning  'y' is not defined                                    no-undef
+  124:6   warning  'txt5' is assigned a value but never used             no-unused-vars
+  124:35  warning  'y' is not defined                                    no-undef
+  128:6   warning  'c5Conn' is assigned a value but never used           no-unused-vars
+  128:50  warning  'y' is not defined                                    no-undef
+  132:6   warning  'cir6' is assigned a value but never used             no-unused-vars
+  132:37  warning  'y' is not defined                                    no-undef
+  133:6   warning  'txt6' is assigned a value but never used             no-unused-vars
+  133:35  warning  'y' is not defined                                    no-undef
+  137:6   warning  'c6Conn' is assigned a value but never used           no-unused-vars
+  137:50  warning  'y' is not defined                                    no-undef
+  141:6   warning  'cir7' is assigned a value but never used             no-unused-vars
+  141:37  warning  'y' is not defined                                    no-undef
+  142:6   warning  'txt7' is assigned a value but never used             no-unused-vars
+  142:35  warning  'y' is not defined                                    no-undef
+  146:6   warning  'c7Conn' is assigned a value but never used           no-unused-vars
+  146:50  warning  'y' is not defined                                    no-undef
+  150:13  warning  'y' is not defined                                    no-undef
+  151:13  warning  'y' is not defined                                    no-undef
+  152:13  warning  'y' is not defined                                    no-undef
+  153:13  warning  'y' is not defined                                    no-undef
+  156:7   warning  'cir8' is assigned a value but never used             no-unused-vars
+  157:7   warning  'txt8' is assigned a value but never used             no-unused-vars
+  162:6   warning  'c8Conn' is assigned a value but never used           no-unused-vars
+  162:50  warning  'y' is not defined                                    no-undef
+  163:6   warning  'c8Conn1' is assigned a value but never used          no-unused-vars
+  163:51  warning  'y' is not defined                                    no-undef
+  164:6   warning  'c8Conn11' is assigned a value but never used         no-unused-vars
+  164:52  warning  'y' is not defined                                    no-undef
+  165:6   warning  'c8Conn111' is assigned a value but never used        no-unused-vars
+  165:53  warning  'y' is not defined                                    no-undef
+  169:22  warning  'y' is not defined                                    no-undef
+  170:22  warning  'y' is not defined                                    no-undef
+  171:22  warning  'y' is not defined                                    no-undef
+  172:22  warning  'y' is not defined                                    no-undef
+  173:22  warning  'y' is not defined                                    no-undef
+  175:23  warning  'y' is not defined                                    no-undef
+  177:23  warning  'y' is not defined                                    no-undef
+  178:23  warning  'y' is not defined                                    no-undef
+  179:23  warning  'y' is not defined                                    no-undef
+  193:23  warning  'y' is not defined                                    no-undef
+  194:25  warning  'y' is not defined                                    no-undef
+  195:23  warning  'y' is not defined                                    no-undef
+  209:22  warning  'y' is not defined                                    no-undef
+  210:23  warning  'y' is not defined                                    no-undef
+  211:23  warning  'y' is not defined                                    no-undef
+  212:25  warning  'y' is not defined                                    no-undef
+  213:23  warning  'y' is not defined                                    no-undef
+  214:23  warning  'y' is not defined                                    no-undef
+  271:31  warning  'y' is not defined                                    no-undef
+  291:44  warning  'y' is not defined                                    no-undef
+  291:56  warning  'y' is not defined                                    no-undef
+  490:11  warning  'showMirrorMenu' is defined but never used            no-unused-vars
+  646:5   warning  'Swal' is not defined                                 no-undef
+  666:4   warning  'Swal' is not defined                                 no-undef
+  680:4   warning  'Swal' is not defined                                 no-undef
+  693:4   warning  'Swal' is not defined                                 no-undef
+  706:4   warning  '$' is not defined                                    no-undef
+  707:4   warning  '$' is not defined                                    no-undef
+  708:4   warning  '$' is not defined                                    no-undef
+  709:4   warning  '$' is not defined                                    no-undef
+  712:4   warning  'renderShuffledOptions2' is not defined               no-undef
+  724:3   warning  '$' is not defined                                    no-undef
+  726:3   warning  '$' is not defined                                    no-undef
+  760:3   warning  '$' is not defined                                    no-undef
+  761:4   warning  '$' is not defined                                    no-undef
+  763:18  warning  '$' is not defined                                    no-undef
+  766:18  warning  '$' is not defined                                    no-undef
+  767:6   warning  '$' is not defined                                    no-undef
+  770:7   warning  '$' is not defined                                    no-undef
+  772:17  warning  '$' is not defined                                    no-undef
+  778:8   warning  '$' is not defined                                    no-undef
+  785:6   warning  'Swal' is not defined                                 no-undef
+  797:6   warning  '$' is not defined                                    no-undef
+  812:6   warning  '$' is not defined                                    no-undef
+  813:6   warning  'timerMasterJson' is not defined                      no-undef
+  813:32  warning  '$' is not defined                                    no-undef
+  814:18  warning  'timerMasterJson' is not defined                      no-undef
+  815:6   warning  'seconds' is not defined                              no-undef
+  816:6   warning  'updateCounter' is not defined                        no-undef
+  817:10  warning  'hookUpPhase' is not defined                          no-undef
+  818:7   warning  'Swal' is not defined                                 no-undef
+  830:7   warning  '$' is not defined                                    no-undef
+  831:7   warning  '$' is not defined                                    no-undef
+  832:7   warning  '$' is not defined                                    no-undef
+  834:7   warning  '$' is not defined                                    no-undef
+  839:4   warning  '$' is not defined                                    no-undef
+  840:5   warning  'result' is not defined                               no-undef
+  844:3   warning  '$' is not defined                                    no-undef
+
+/home/runner/work/exp-hook-drawing-coep/exp-hook-drawing-coep/experiment/simulation/src/demo3.js
+    5:10  warning  'Diagram3' is defined but never used                no-unused-vars
+    7:2   warning  '$' is not defined                                  no-undef
+    8:2   warning  '$' is not defined                                  no-undef
+    9:2   warning  '$' is not defined                                  no-undef
+   14:16  warning  'Raphael' is not defined                            no-undef
+   19:6   warning  'wrongCnt' is assigned a value but never used       no-unused-vars
+   20:6   warning  'wrongAttempts' is assigned a value but never used  no-unused-vars
+   22:15  warning  'y' is not defined                                  no-undef
+   27:6   warning  'c1' is assigned a value but never used             no-unused-vars
+   27:47  warning  'y' is not defined                                  no-undef
+   28:6   warning  'c1H' is assigned a value but never used            no-unused-vars
+   28:50  warning  'y' is not defined                                  no-undef
+   29:6   warning  'c1H1' is assigned a value but never used           no-unused-vars
+   29:51  warning  'y' is not defined                                  no-undef
+   30:6   warning  'c1HBig' is assigned a value but never used         no-unused-vars
+   30:53  warning  'y' is not defined                                  no-undef
+   31:6   warning  'c11' is assigned a value but never used            no-unused-vars
+   31:48  warning  'y' is not defined                                  no-undef
+   33:6   warning  'v1' is assigned a value but never used             no-unused-vars
+   33:47  warning  'y' is not defined                                  no-undef
+   34:28  warning  'y' is not defined                                  no-undef
+   35:28  warning  'y' is not defined                                  no-undef
+   37:6   warning  'h1' is assigned a value but never used             no-unused-vars
+   37:47  warning  'y' is not defined                                  no-undef
+   39:6   warning  'baseRect' is assigned a value but never used       no-unused-vars
+   39:42  warning  'y' is not defined                                  no-undef
+   40:6   warning  'base' is assigned a value but never used           no-unused-vars
+   40:49  warning  'y' is not defined                                  no-undef
+   42:6   warning  'horLines' is assigned a value but never used       no-unused-vars
+   42:55  warning  'y' is not defined                                  no-undef
+   43:30  warning  'y' is not defined                                  no-undef
+   45:6   warning  'verLine' is assigned a value but never used        no-unused-vars
+   45:52  warning  'y' is not defined                                  no-undef
+   47:6   warning  'pg' is assigned a value but never used             no-unused-vars
+   47:63  warning  'y' is not defined                                  no-undef
+   48:6   warning  'rectF' is assigned a value but never used          no-unused-vars
+   48:39  warning  'y' is not defined                                  no-undef
+   51:13  warning  'y' is not defined                                  no-undef
+   52:13  warning  'y' is not defined                                  no-undef
+   55:7   warning  'cir' is assigned a value but never used            no-unused-vars
+   56:7   warning  'txt' is assigned a value but never used            no-unused-vars
+   60:7   warning  'conn' is assigned a value but never used           no-unused-vars
+   64:13  warning  'y' is not defined                                  no-undef
+   65:19  warning  'y' is not defined                                  no-undef
+   68:7   warning  'cir' is assigned a value but never used            no-unused-vars
+   69:7   warning  'txt' is assigned a value but never used            no-unused-vars
+   76:6   warning  'conn' is assigned a value but never used           no-unused-vars
+   76:49  warning  'y' is not defined                                  no-undef
+   77:6   warning  'conn1' is assigned a value but never used          no-unused-vars
+   77:60  warning  'y' is not defined                                  no-undef
+   82:23  warning  'y' is not defined                                  no-undef
+   83:23  warning  'y' is not defined                                  no-undef
+   84:23  warning  'y' is not defined                                  no-undef
+   85:23  warning  'y' is not defined                                  no-undef
+  170:27  warning  'y' is not defined                                  no-undef
+  190:40  warning  'y' is not defined                                  no-undef
+  190:52  warning  'y' is not defined                                  no-undef
+  577:5   warning  'Swal' is not defined                               no-undef
+  597:4   warning  'Swal' is not defined                               no-undef
+  636:5   warning  'Swal' is not defined                               no-undef
+  655:5   warning  'Swal' is not defined                               no-undef
+  671:4   warning  'Swal' is not defined                               no-undef
+  684:4   warning  '$' is not defined                                  no-undef
+  685:4   warning  '$' is not defined                                  no-undef
+  686:4   warning  '$' is not defined                                  no-undef
+  687:4   warning  '$' is not defined                                  no-undef
+  690:4   warning  'renderShuffledOptions3' is not defined             no-undef
+  702:3   warning  '$' is not defined                                  no-undef
+  704:3   warning  '$' is not defined                                  no-undef
+  738:3   warning  '$' is not defined                                  no-undef
+  739:4   warning  '$' is not defined                                  no-undef
+  741:18  warning  '$' is not defined                                  no-undef
+  744:18  warning  '$' is not defined                                  no-undef
+  745:6   warning  '$' is not defined                                  no-undef
+  748:7   warning  '$' is not defined                                  no-undef
+  750:17  warning  '$' is not defined                                  no-undef
+  756:8   warning  '$' is not defined                                  no-undef
+  763:6   warning  'Swal' is not defined                               no-undef
+  775:6   warning  '$' is not defined                                  no-undef
+  790:6   warning  '$' is not defined                                  no-undef
+  791:6   warning  'timerMasterJson' is not defined                    no-undef
+  791:32  warning  '$' is not defined                                  no-undef
+  792:19  warning  'timerMasterJson' is not defined                    no-undef
+  793:7   warning  'seconds' is not defined                            no-undef
+  794:7   warning  'updateCounter' is not defined                      no-undef
+  795:10  warning  'hookUpPhase' is not defined                        no-undef
+  796:7   warning  'Swal' is not defined                               no-undef
+  808:7   warning  '$' is not defined                                  no-undef
+  809:7   warning  '$' is not defined                                  no-undef
+  810:7   warning  '$' is not defined                                  no-undef
+  812:7   warning  '$' is not defined                                  no-undef
+  817:4   warning  '$' is not defined                                  no-undef
+  818:5   warning  'result' is not defined                             no-undef
+  822:3   warning  '$' is not defined                                  no-undef
+
+/home/runner/work/exp-hook-drawing-coep/exp-hook-drawing-coep/experiment/simulation/src/hookUp.js
+    3:10  warning  'HookUp' is defined but never used                    no-unused-vars
+    5:2   warning  'hookUpPhase' is not defined                          no-undef
+    6:2   warning  '$' is not defined                                    no-undef
+   13:2   warning  '$' is not defined                                    no-undef
+   14:2   warning  '$' is not defined                                    no-undef
+   15:2   warning  '$' is not defined                                    no-undef
+   88:6   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+   88:19  warning  'n' is not defined                                    no-undef
+   88:24  warning  'n' is not defined                                    no-undef
+   88:30  warning  'n' is not defined                                    no-undef
+  109:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  129:6   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  130:6   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  391:6   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  392:6   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  415:2   warning  '$' is not defined                                    no-undef
+  421:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  422:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  423:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  424:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  425:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  426:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  427:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  432:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  433:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  434:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  435:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  436:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  437:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  442:2   warning  'renderShuffledOptions' is not defined                no-undef
+  445:10  warning  'z' is not defined                                    no-undef
+  445:17  warning  'z' is not defined                                    no-undef
+  445:52  warning  'z' is not defined                                    no-undef
+  446:54  warning  'z' is not defined                                    no-undef
+  446:85  warning  'z' is not defined                                    no-undef
+  449:3   warning  '$' is not defined                                    no-undef
+  454:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  454:3   warning  '$' is not defined                                    no-undef
+  472:5   warning  '$' is not defined                                    no-undef
+  478:9   warning  'allRowsSelected' is assigned a value but never used  no-unused-vars
+  480:5   warning  '$' is not defined                                    no-undef
+  481:20  warning  '$' is not defined                                    no-undef
+  482:27  warning  '$' is not defined                                    no-undef
+  483:28  warning  '$' is not defined                                    no-undef
+  531:13  warning  'Swal' is not defined                                 no-undef
+  545:13  warning  'Swal' is not defined                                 no-undef
+  566:9   warning  'Swal' is not defined                                 no-undef
+  579:9   warning  'resultJson' is not defined                           no-undef
+  581:9   warning  '$' is not defined                                    no-undef
+  583:13  warning  '$' is not defined                                    no-undef
+  592:9   warning  '$' is not defined                                    no-undef
+  593:9   warning  '$' is not defined                                    no-undef
+  594:9   warning  '$' is not defined                                    no-undef
+
+/home/runner/work/exp-hook-drawing-coep/exp-hook-drawing-coep/experiment/simulation/src/hookUp1.js
+    3:10  warning  'HookUp1' is defined but never used                   no-unused-vars
+    4:2   warning  'hookUpPhase' is not defined                          no-undef
+    5:2   warning  '$' is not defined                                    no-undef
+    8:2   warning  '$' is not defined                                    no-undef
+   10:2   warning  '$' is not defined                                    no-undef
+   11:2   warning  '$' is not defined                                    no-undef
+   84:6   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+   85:6   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+   85:18  warning  'n' is not defined                                    no-undef
+   85:22  warning  'n' is not defined                                    no-undef
+   85:26  warning  'n' is not defined                                    no-undef
+  104:6   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  106:6   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  131:2   warning  '$' is not defined                                    no-undef
+  134:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  135:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  136:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  137:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  138:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  143:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  144:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  145:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  146:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  147:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  148:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  153:2   warning  'renderShuffledOptions1' is not defined               no-undef
+  156:10  warning  'z' is not defined                                    no-undef
+  156:17  warning  'z' is not defined                                    no-undef
+  156:53  warning  'z' is not defined                                    no-undef
+  157:54  warning  'z' is not defined                                    no-undef
+  157:86  warning  'z' is not defined                                    no-undef
+  160:3   warning  '$' is not defined                                    no-undef
+  164:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  164:3   warning  '$' is not defined                                    no-undef
+  177:5   warning  '$' is not defined                                    no-undef
+  183:9   warning  'allRowsSelected' is assigned a value but never used  no-unused-vars
+  185:5   warning  '$' is not defined                                    no-undef
+  186:20  warning  '$' is not defined                                    no-undef
+  187:27  warning  '$' is not defined                                    no-undef
+  188:28  warning  '$' is not defined                                    no-undef
+  234:13  warning  'Swal' is not defined                                 no-undef
+  248:13  warning  'Swal' is not defined                                 no-undef
+  269:9   warning  'Swal' is not defined                                 no-undef
+  282:9   warning  'resultJson' is not defined                           no-undef
+  284:9   warning  '$' is not defined                                    no-undef
+  286:13  warning  '$' is not defined                                    no-undef
+  295:9   warning  '$' is not defined                                    no-undef
+  296:9   warning  '$' is not defined                                    no-undef
+  297:9   warning  '$' is not defined                                    no-undef
+
+/home/runner/work/exp-hook-drawing-coep/exp-hook-drawing-coep/experiment/simulation/src/hookUp2.js
+    4:10  warning  'HookUp2' is defined but never used                   no-unused-vars
+    5:2   warning  'hookUpPhase' is not defined                          no-undef
+    9:2   warning  '$' is not defined                                    no-undef
+   11:2   warning  '$' is not defined                                    no-undef
+   12:2   warning  '$' is not defined                                    no-undef
+   13:2   warning  '$' is not defined                                    no-undef
+   99:6   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  100:6   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  100:19  warning  'n' is not defined                                    no-undef
+  100:23  warning  'n' is not defined                                    no-undef
+  100:27  warning  'n' is not defined                                    no-undef
+  101:7   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  132:7   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  133:7   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  135:6   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  137:6   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  163:2   warning  '$' is not defined                                    no-undef
+  178:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  179:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  180:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  181:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  182:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  183:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  184:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  185:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  190:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  191:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  192:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  193:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  194:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  195:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  200:2   warning  'renderShuffledOptions2' is not defined               no-undef
+  203:10  warning  'z' is not defined                                    no-undef
+  203:17  warning  'z' is not defined                                    no-undef
+  203:53  warning  'z' is not defined                                    no-undef
+  204:54  warning  'z' is not defined                                    no-undef
+  204:86  warning  'z' is not defined                                    no-undef
+  207:3   warning  '$' is not defined                                    no-undef
+  212:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  214:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  214:3   warning  '$' is not defined                                    no-undef
+  228:2   warning  '$' is not defined                                    no-undef
+  229:2   warning  'result' is not defined                               no-undef
+  231:5   warning  '$' is not defined                                    no-undef
+  237:9   warning  'allRowsSelected' is assigned a value but never used  no-unused-vars
+  239:5   warning  '$' is not defined                                    no-undef
+  240:20  warning  '$' is not defined                                    no-undef
+  241:27  warning  '$' is not defined                                    no-undef
+  242:28  warning  '$' is not defined                                    no-undef
+  288:13  warning  'Swal' is not defined                                 no-undef
+  302:13  warning  'Swal' is not defined                                 no-undef
+  324:9   warning  'Swal' is not defined                                 no-undef
+  337:9   warning  'resultJson' is not defined                           no-undef
+  339:9   warning  '$' is not defined                                    no-undef
+  341:13  warning  '$' is not defined                                    no-undef
+  350:9   warning  '$' is not defined                                    no-undef
+  351:9   warning  '$' is not defined                                    no-undef
+  352:9   warning  '$' is not defined                                    no-undef
+
+/home/runner/work/exp-hook-drawing-coep/exp-hook-drawing-coep/experiment/simulation/src/hookUp3.js
+    4:10  warning  'HookUp3' is defined but never used                   no-unused-vars
+    5:2   warning  'hookUpPhase' is not defined                          no-undef
+    6:2   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+    8:2   warning  '$' is not defined                                    no-undef
+   10:2   warning  '$' is not defined                                    no-undef
+   11:2   warning  '$' is not defined                                    no-undef
+   12:2   warning  '$' is not defined                                    no-undef
+   63:6   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+   64:6   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+   64:14  warning  'n' is not defined                                    no-undef
+   64:18  warning  'n' is not defined                                    no-undef
+   64:22  warning  'n' is not defined                                    no-undef
+   90:5   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  115:2   warning  '$' is not defined                                    no-undef
+  126:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  127:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  128:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  133:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  134:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  135:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  136:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  137:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  138:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  143:2   warning  'renderShuffledOptions3' is not defined               no-undef
+  146:10  warning  'z' is not defined                                    no-undef
+  146:17  warning  'z' is not defined                                    no-undef
+  146:53  warning  'z' is not defined                                    no-undef
+  147:54  warning  'z' is not defined                                    no-undef
+  147:86  warning  'z' is not defined                                    no-undef
+  150:3   warning  '$' is not defined                                    no-undef
+  154:1   warning  Mixed spaces and tabs                                 no-mixed-spaces-and-tabs
+  154:3   warning  '$' is not defined                                    no-undef
+  162:2   warning  '$' is not defined                                    no-undef
+  163:2   warning  'result' is not defined                               no-undef
+  165:5   warning  '$' is not defined                                    no-undef
+  171:9   warning  'allRowsSelected' is assigned a value but never used  no-unused-vars
+  173:5   warning  '$' is not defined                                    no-undef
+  174:20  warning  '$' is not defined                                    no-undef
+  175:27  warning  '$' is not defined                                    no-undef
+  176:28  warning  '$' is not defined                                    no-undef
+  222:13  warning  'Swal' is not defined                                 no-undef
+  236:13  warning  'Swal' is not defined                                 no-undef
+  258:9   warning  'Swal' is not defined                                 no-undef
+  271:9   warning  'resultJson' is not defined                           no-undef
+  273:9   warning  '$' is not defined                                    no-undef
+  275:13  warning  '$' is not defined                                    no-undef
+  284:9   warning  '$' is not defined                                    no-undef
+  285:9   warning  '$' is not defined                                    no-undef
+  286:9   warning  '$' is not defined                                    no-undef
+
+/home/runner/work/exp-hook-drawing-coep/exp-hook-drawing-coep/experiment/simulation/src/result.js
+    1:10  warning  'result' is defined but never used  no-unused-vars
+    3:2   warning  '$' is not defined                  no-undef
+    4:2   warning  '$' is not defined                  no-undef
+    7:2   warning  '$' is not defined                  no-undef
+    8:2   warning  '$' is not defined                  no-undef
+   10:2   warning  '$' is not defined                  no-undef
+   12:2   warning  'htm' is not defined                no-undef
+   25:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+   84:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  101:55  warning  'resultJson' is not defined         no-undef
+  117:53  warning  'resultJson' is not defined         no-undef
+  135:50  warning  'resultJson' is not defined         no-undef
+  152:50  warning  'resultJson' is not defined         no-undef
+  170:50  warning  'resultJson' is not defined         no-undef
+  187:50  warning  'resultJson' is not defined         no-undef
+  205:50  warning  'resultJson' is not defined         no-undef
+  222:50  warning  'resultJson' is not defined         no-undef
+  240:5   warning  '$' is not defined                  no-undef
+  240:25  warning  'htm' is not defined                no-undef
+  243:30  warning  'resultJson' is not defined         no-undef
+  243:57  warning  'resultJson' is not defined         no-undef
+  244:27  warning  'resultJson' is not defined         no-undef
+  244:53  warning  'resultJson' is not defined         no-undef
+  245:32  warning  'resultJson' is not defined         no-undef
+  245:58  warning  'resultJson' is not defined         no-undef
+  246:33  warning  'resultJson' is not defined         no-undef
+  246:64  warning  'resultJson' is not defined         no-undef
+  254:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  255:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  258:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  258:3   warning  '$' is not defined                  no-undef
+  259:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  261:31  warning  'timerMasterJson' is not defined    no-undef
+  263:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  263:3   warning  '$' is not defined                  no-undef
+  264:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  268:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  268:8   warning  'str' is already defined            no-redeclare
+  269:3   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  270:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  271:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  272:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  272:8   warning  '$' is not defined                  no-undef
+  273:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  273:8   warning  'str1' is already defined           no-redeclare
+  275:34  warning  'timerMasterJson' is not defined    no-undef
+  277:7   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  277:13  warning  '$' is not defined                  no-undef
+  283:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  283:8   warning  'str' is already defined            no-redeclare
+  284:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  287:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  287:8   warning  '$' is not defined                  no-undef
+  288:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  288:8   warning  'str1' is already defined           no-redeclare
+  290:34  warning  'timerMasterJson' is not defined    no-undef
+  292:7   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  292:13  warning  '$' is not defined                  no-undef
+  296:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  296:8   warning  'str' is already defined            no-redeclare
+  297:3   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  298:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  299:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  300:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  300:8   warning  '$' is not defined                  no-undef
+  301:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  301:8   warning  'str1' is already defined           no-redeclare
+  303:34  warning  'timerMasterJson' is not defined    no-undef
+  305:7   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  305:13  warning  '$' is not defined                  no-undef
+  309:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  309:8   warning  'str' is already defined            no-redeclare
+  310:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  313:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  313:8   warning  '$' is not defined                  no-undef
+  314:6   warning  'str1' is already defined           no-redeclare
+  316:31  warning  'timerMasterJson' is not defined    no-undef
+  318:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  318:3   warning  '$' is not defined                  no-undef
+  322:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  322:8   warning  'str' is already defined            no-redeclare
+  323:3   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  324:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  325:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  326:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  326:8   warning  '$' is not defined                  no-undef
+  327:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  327:8   warning  'str1' is already defined           no-redeclare
+  329:34  warning  'timerMasterJson' is not defined    no-undef
+  331:7   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  331:13  warning  '$' is not defined                  no-undef
+  335:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  335:8   warning  'str' is already defined            no-redeclare
+  336:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  339:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  339:8   warning  '$' is not defined                  no-undef
+  340:6   warning  'str1' is already defined           no-redeclare
+  342:31  warning  'timerMasterJson' is not defined    no-undef
+  344:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  344:3   warning  '$' is not defined                  no-undef
+  348:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  348:8   warning  'str' is already defined            no-redeclare
+  349:3   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  350:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  351:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  352:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  352:8   warning  '$' is not defined                  no-undef
+  353:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  353:8   warning  'str1' is already defined           no-redeclare
+  355:34  warning  'timerMasterJson' is not defined    no-undef
+  357:7   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  357:13  warning  '$' is not defined                  no-undef
+  360:2   warning  'Highcharts' is not defined         no-undef
+  362:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  363:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  364:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  365:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  366:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  367:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  368:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  370:3   warning  Duplicate key 'credits'             no-dupe-keys
+  371:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  372:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  373:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  374:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  375:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  376:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  388:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  389:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  390:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  391:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  392:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  393:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  394:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  395:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  396:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  397:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  398:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  400:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  401:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  402:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  403:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  404:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  405:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  406:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  407:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  408:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  409:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  411:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  412:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  413:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  414:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  415:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  416:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  417:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  418:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  419:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  420:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  424:4   warning  '$' is not defined                  no-undef
+  425:3   warning  'tmp' is not defined                no-undef
+  425:9   warning  '$' is not defined                  no-undef
+  426:6   warning  'tmp' is not defined                no-undef
+  428:3   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  429:3   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  430:3   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  431:3   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  431:8   warning  '$' is not defined                  no-undef
+  432:3   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  434:3   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  435:3   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  435:6   warning  '$' is not defined                  no-undef
+  436:3   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  436:41  warning  '$' is not defined                  no-undef
+  437:3   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  445:4   warning  'html2canvas' is not defined        no-undef
+  460:4   warning  '$' is not defined                  no-undef
+
+/home/runner/work/exp-hook-drawing-coep/exp-hook-drawing-coep/experiment/simulation/src/timer.js
+   6:1  warning  '$' is not defined  no-undef
+  21:4  warning  '$' is not defined  no-undef
+
+✖ 1110 problems (1 error, 1109 warnings)
+
