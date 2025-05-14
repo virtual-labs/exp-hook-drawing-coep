@@ -771,9 +771,17 @@ function Diagram() {
 					$("#hookUpSelect").prop("hidden", true);
 					$("#validateTable").prop("hidden", false);
 				} else {
-					Swal.fire({
+					
+
+					$("#validateTable").prop("hidden", true);
+					timerMasterJson.hookup = $("#counter").text();
+					console.log(timerMasterJson);
+					seconds = 0;
+					updateCounter();
+					if (hookUpPhase < 4) {
+						Swal.fire({
 						icon: 'success',
-						title: 'Form submitted successfully!',
+						title: 'Form submitted successfully! <br> Select another hook up diagram.',
 						confirmButtonText: 'OK',
 						customClass: {
 							icon: 'custom-icon',
@@ -783,13 +791,6 @@ function Diagram() {
 							cancelButton: 'custom-cancel-button',
 						}
 					});
-
-					$("#validateTable").prop("hidden", true);
-					timerMasterJson.hookup = $("#counter").text();
-					console.log(timerMasterJson);
-					seconds = 0;
-					updateCounter();
-					if (hookUpPhase < 4) {
 						$('html, body').animate({ scrollTop: 0 }, 'slow');
 						$("#hookUpSelect").val(0);
 						$("#hookUpSelect").prop("disabled", false);
