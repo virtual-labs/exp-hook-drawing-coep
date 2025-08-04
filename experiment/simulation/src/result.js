@@ -1,5 +1,7 @@
 function result(){
-	
+	const now = new Date();
+    const formatted = now.toLocaleString();
+	timerMasterJson.mimic=$("#counter").text();
 	$("#hookUpSelectLabel").prop("hidden",true);
 	$("#hookUpSelect").prop("hidden",true);
 	
@@ -15,7 +17,7 @@ function result(){
   <div style="display: flex; align-items: center; gap: 10px; white-space: nowrap;">
     <span style="color: white;font-weight: bold;">Enter Name:</span>
     <input type="text" id="nameInput" style="color: #000; padding: 5px; max-width: 200px;">
-	<label id="dateTime1" style="color:#fff;"></label>
+	<label id="dateTime1" style="color:#fff;">`+formatted+`</label>
   </div>
 </div>`
 
